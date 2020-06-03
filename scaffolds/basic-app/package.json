@@ -11,6 +11,7 @@
     "name": "Rax basic app",
     "title": "Rax basic app",
     "category": "Basic",
+    "description": "Rax Web 单页应用。官网：https://rax.js.org/",
     "screenshot": "https://img.alicdn.com/tfs/TB1zr3wINz1gK0jSZSgXXavwpXa-640-564.png"
   },
   "dependencies": {
