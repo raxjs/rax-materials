@@ -1,37 +1,5 @@
-## rax-materials-blocks-text-card
+# @rax-materials/blocks-text-card
 
-## Install
+Use for iceworks block template
+![img](https://img.alicdn.com/tfs/TB1WI0xI1L2gK0jSZPhXXahvXXa-345-62.png)
 
-```
-$ npm install rax-materials-blocks-text-card --save
-```
-
-## Usage
-
-```
-import MyComponent from 'rax-materials-blocks-text-card';
-```
-
-## API
-
-### Props
-
-|name|type|default|describe|
-|:---------------|:--------|:----|:----------|
-|name|String|''|describe|
-
-### Function
-
-|name|param|return|describe|
-|:---------------|:--------|:----|:----------|
-|name|Object|/|describe|
-
-## Example
-
-```
-import { createElement, render } from 'rax';
-import DriverUniversal from 'driver-universal';
-import MyComponent from 'rax-materials-blocks-text-card';
-
-render(<MyComponent />, document.body, { driver: DriverUniversal });
-```

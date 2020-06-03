@@ -1,8 +1,7 @@
 {
-  "name": "rax-materials-blocks-text-card",
+  "name": "@rax-materials/blocks-text-card",
   "author": "rax",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "module": "src/index.js",
   "files": [
@@ -14,7 +13,8 @@
   ],
   "keywords": [
     "Rax",
-    "rax-component"
+    "rax-materials",
+    "blocks"
   ],
   "engines": {
     "npm": ">=3.0.0"

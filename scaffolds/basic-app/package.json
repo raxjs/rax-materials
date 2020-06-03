@@ -1,6 +1,7 @@
 {
-  "name": "rax-materials-basic-app",
+  "name": "@rax-materials/scaffolds-basic-app",
   "author": "rax",
+  "version": "0.1.0",
   "scripts": {
     "build": "build-scripts build",
     "start": "build-scripts start",
