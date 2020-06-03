@@ -1,0 +1,19 @@
+.text-card {
+  position: relative;
+  margin: 15rpx;
+  width: 720rpx;
+  background-color: #fff;
+  border: 2rpx solid #999;
+  padding: 20rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: black;
+}
+
+.description {
+  font-size: 20rpx;
+  color: #666;
+}
