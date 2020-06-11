@@ -23,9 +23,9 @@
     "template": "rax-template",
     "type": "rax",
     "fusion-site": {
-      "id": 1194,
-      "name": "Rax",
-      "url": "https://fusion.alibaba-inc.com/api/v1/sites/1194/materials"
+      "id": 12891,
+      "name": "Rax 物料",
+      "url": "https://fusion.design/api/v1/sites/12891/materials"
     }
   }
 }
