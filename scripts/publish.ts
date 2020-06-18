@@ -29,8 +29,8 @@ Promise.all([
   // Publish
   for (let i = 0; i < result.length; i++) {
     const packageInfos: IPackageInfo[] = result[i];
-    for (let l = 0; l < packageInfos.length; l++) {
-      const { name, directory, localVersion, shouldPublish } = packageInfos[l];
+    for (let j = 0; j < packageInfos.length; j++) {
+      const { name, directory, localVersion, shouldPublish } = packageInfos[j];
       if (shouldPublish) {
         publishedCount++;
         console.log(`--- ${name}@${localVersion} ---`);
