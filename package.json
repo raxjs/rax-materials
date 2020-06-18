@@ -7,7 +7,7 @@
     "deploy": "npm run generate && npm run sync",
     "generate": "iceworks generate",
     "sync": "iceworks sync",
-    "lint": "npm run eslint && npm run stylelint",
+    "lint": "npm run eslint",
     "eslint": "eslint --cache --ext .js,.jsx ./",
     "stylelint": "stylelint ./**/*.scss"
   },
@@ -16,8 +16,7 @@
   ],
   "devDependencies": {
     "@ice/spec": "^1.0.1",
-    "eslint": "^6.0.1",
-    "stylelint": "^13.1.0"
+    "eslint": "^6.0.1"
   },
   "materialConfig": {
     "template": "rax-template",
