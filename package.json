@@ -4,23 +4,28 @@
   "description": "This is a ice material project for Rax",
   "author": "",
   "scripts": {
-    "deploy": "npm run generate && npm run sync",
+    "deploy": "npm run publish && npm run generate && npm run sync",
+    "publish": "ts-node ./scripts/publish.ts",
     "generate": "iceworks generate",
-    "sync": "iceworks sync",
-    "lint": "npm run eslint && npm run stylelint",
+    "sync": "ts-node ./scripts/upload.ts",
+    "lint": "npm run eslint",
     "eslint": "eslint --cache --ext .js,.jsx ./",
-    "stylelint": "stylelint ./**/*.scss"
+    "stylelint": "stylelint ./**/*.css"
   },
   "files": [
     "build"
   ],
   "devDependencies": {
     "@ice/spec": "^1.0.1",
+    "ali-oss": "^6.9.1",
+    "axios": "^0.19.2",
     "eslint": "^6.0.1",
-    "stylelint": "^13.1.0"
+    "stylelint": "^13.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.7.5"
   },
   "materialConfig": {
-    "template": "rax-template",
+    "template": "@icedesign/template-rax",
     "type": "rax"
   }
 }
