@@ -13,7 +13,7 @@ export interface IPackageInfo {
 
 function checkVersionExists(pkg: string, version: string): Promise<boolean> {
   return axios(
-    `https://unpkg.com/${pkg}@${version}`,
+    `https://unpkg.com/${pkg}@${version}/`,
     { timeout: TIMEOUT }
   )
     .then((res) => res.status === 200)
@@ -46,7 +46,7 @@ export async function getPackageInfos(targetDir: string): Promise<IPackageInfo[]
             directory,
             localVersion: packageInfo.version,
             // If localVersion not exist, publish it
-            shouldPublish: await checkVersionExists(packageName, packageInfo.version)
+            shouldPublish: !await checkVersionExists(packageName, packageInfo.version)
           });
         } catch (e) {
           console.log(`[ERROR] get ${packageName} information failed: `, e);

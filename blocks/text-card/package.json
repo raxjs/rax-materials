@@ -1,7 +1,7 @@
 {
   "name": "@rax-materials/blocks-text-card",
   "author": "rax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "module": "src/index.js",
   "files": [
