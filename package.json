@@ -25,7 +25,7 @@
     "typescript": "^3.7.5"
   },
   "materialConfig": {
-    "template": "rax-template",
+    "template": "@icedesign/template-rax",
     "type": "rax"
   }
 }
