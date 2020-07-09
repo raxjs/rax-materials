@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
-import axios from 'axios';
+import { getLatestVersion } from 'ice-npm-utils';
 
 const TIMEOUT = 8000; // ms
 
@@ -12,12 +12,7 @@ export interface IPackageInfo {
 }
 
 function checkVersionExists(pkg: string, version: string): Promise<boolean> {
-  return axios(
-    `https://unpkg.com/${pkg}@${version}/`,
-    { timeout: TIMEOUT }
-  )
-    .then((res) => res.status === 200)
-    .catch(() => false);
+  return getLatestVersion(pkg).then(latestVersion => version === latestVersion).catch(() => false);
 }
 
 export async function getPackageInfos(targetDir: string): Promise<IPackageInfo[]> {
