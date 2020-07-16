@@ -19,8 +19,9 @@
     "@ice/spec": "^1.0.1",
     "ali-oss": "^6.9.1",
     "eslint": "^6.0.1",
-    "iceworks": "^3.2.5",
+    "fs-extra": "^9.0.1",
     "ice-npm-utils": "^2.0.0",
+    "iceworks": "^3.2.5",
     "stylelint": "^13.1.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.7.5"
