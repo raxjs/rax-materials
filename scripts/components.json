@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Text",
+    "title": "Text",
+    "description": "Text 用于显示文本，在 Web 容器中是使用 span 标签实现的，而不是 p 标签。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-text",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-text",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "View",
+    "title": "View",
+    "description": "View 是最基础的组件，默认为 Flexbox 布局，并且可以任意嵌套。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-view",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-view",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "TextInput",
+    "title": "TextInput",
+    "description": "TextInput 是唤起用户键盘的基础组件。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-textinput",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-textinput",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Link",
+    "title": "Link",
+    "description": "Link 是基础的链接组件，在 Web 容器中通过 a 标签实现，它带有默认样式 textDecoration: 'none'。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-link",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-link",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Icon",
+    "title": "Icon",
+    "description": "图标组件，Icon 组件实现了 W3C 标准的 IconFont 接口。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-icon",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-icon",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Image",
+    "title": "Image",
+    "description": "图片展示组件，类似于 HTML image 标签，但提供了更丰富的功能，使用时需指定样式宽高值。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-image",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-image",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Picture",
+    "title": "Picture",
+    "description": "复杂的图片组件，在 Weex 容器中，Picture 和 Image 组件只有 forceUpdate 属性不同。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-picture",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-picture",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Video",
+    "title": "Video",
+    "description": "视频播放组件。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-video",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础组件"
+    ],
+    "category": "基础组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-video",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "ScrollView",
+    "title": "ScrollView",
+    "description": "ScrollView 是一个滚动容器，可用于列表的展示。一般情况下需要为 ScrollView 设置确定的高度来保证其正常展现。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-scrollview",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础容器"
+    ],
+    "category": "基础容器",
+    "source": {
+      "type": "npm",
+      "npm": "rax-scrollview",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "RecyclerView",
+    "title": "RecyclerView",
+    "description": "动态 View 的滚动组件，用于大量数据列表场景。在 Weex 下是对 list 与 cell 的包装，它通过内部子组件复用提升了滚动列表的性能。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-recyclerview",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础容器"
+    ],
+    "category": "基础容器",
+    "source": {
+      "type": "npm",
+      "npm": "rax-recyclerview",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Waterfall",
+    "title": "Waterfall",
+    "description": "用于实现瀑布流的列表容器，瀑布流中的每一项需要指定高度用于计算布局。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-waterfall",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "基础容器"
+    ],
+    "category": "基础容器",
+    "source": {
+      "type": "npm",
+      "npm": "rax-waterfall",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Embed",
+    "title": "Embed",
+    "description": "内嵌内容容器，在 Weex 容器中通过 <web> 实现，在 Web 容器中通过 <iframe> <embed> 实现。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-embed",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-embed",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Countdown",
+    "title": "Countdown",
+    "description": "倒计时组件，可设置倒计时毫秒数，以及展现的模板。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-countdown",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-countdown",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Canvas",
+    "title": "Canvas",
+    "description": "在 Web 和 Weex 中可以通过 ref 获取画布实例，在小程序中需要通过 createCanvasContext 和画布的 id 获取 canvas 上下文。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-canvas",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-canvas",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Slider",
+    "title": "Slider",
+    "description": "轮播组件，通过幻灯片的方式，在页面中横向展示内容组件。 轮播内容相互独立，前后在内容以及数据上都不存在逻辑关系。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-slider",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-slider",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "XSlider",
+    "title": "XSlider",
+    "description": "轮播增强，仅支持 Web 和 Weex。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-xslider",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-xslider",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "Modal",
+    "title": "Modal",
+    "description": "Modal 提供了弹出遮罩层的能力，为 Alert, Confirm 等对话框组件提供了底层能力。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-modal",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-modal",
+      "registry": "https://registry.npmjs.org"
+    }
+  },
+  {
+    "name": "QRCode",
+    "title": "QRCode",
+    "description": "用于生成二维码的 Rax 组件。",
+    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-qrcode",
+    "repository": "https://github.com/raxjs/rax-components",
+    "categories": [
+      "功能组件"
+    ],
+    "category": "功能组件",
+    "source": {
+      "type": "npm",
+      "npm": "rax-qrcode",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
+]
