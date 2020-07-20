@@ -8,10 +8,10 @@ const tabComponentCache = {};
 
 export default function TabContainer(props) {
   const { selectedIndex = 0 } = props;
-  const tab = tabs[selectedIndex];
+  const currentTab = tabs[selectedIndex];
 
-  if (!tabComponentCache[tab.key]) {
-    tabComponentCache[tab.key] = <tab.Component apiName={tab.apiName} apiVersion={tab.apiVersion} />;
+  if (!tabComponentCache[currentTab.key]) {
+    tabComponentCache[currentTab.key] = <currentTab.Component apiName={currentTab.apiName} apiVersion={currentTab.apiVersion} />;
   }
 
   return (
@@ -22,10 +22,10 @@ export default function TabContainer(props) {
           width: `${750 * tabs.length}rpx`, transform: `translateX(-${selectedIndex * 750}rpx)`
         })}
       >
-        {tabs.map((tab, index) => {
+        {tabs.map((tabItem, index) => {
           return (
             <View key={index} className="tabContainerItem">
-              {tabComponentCache[tab.key] || null}
+              {tabComponentCache[tabItem.key] || null}
             </View>
           );
         })}
