@@ -1,0 +1,12 @@
+{
+  "inlineStyle": false,
+  "plugins": [
+    [
+      "build-plugin-rax-app",
+      {
+        "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa === true) { -%>,
+        "type": "mpa"<%_ } %>
+      }
+    ]
+  ]
+}
