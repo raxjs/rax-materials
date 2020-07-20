@@ -1,4 +1,4 @@
-# miniapp-ts
+# rax-materials-basic-app
 
 ## Getting Started
 
