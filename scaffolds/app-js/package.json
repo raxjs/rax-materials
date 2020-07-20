@@ -1,8 +1,8 @@
 {
-  "name": "@rax-materials/scaffolds-web-app-js",
+  "name": "@rax-materials/scaffolds-app-js",
   "author": "rax",
   "description": "Rax Web 单页应用。官网：https://rax.js.org/",
-  "version": "0.1.2",
+  "version": "0.1.0",
   "scripts": {
     "build": "build-scripts build",
     "start": "build-scripts start",
