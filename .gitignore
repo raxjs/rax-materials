@@ -13,6 +13,8 @@ coverage/
 
 build
 blocks/**/lib/
+blocks/**/dist/
+blocks/**/es/
 components/**/lib/
 components/**/es/
 screenshot.png
