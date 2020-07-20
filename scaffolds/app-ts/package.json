@@ -14,9 +14,13 @@
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "rax": "^1.1.0",
     "rax-app": "^2.0.0",
+    "driver-universal": "^3.0.0",
     "rax-image": "^2.0.0",
     "rax-link": "^1.0.1",
     "rax-text": "^1.0.0",

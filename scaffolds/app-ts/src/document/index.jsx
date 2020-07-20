@@ -1,5 +1,5 @@
 import { createElement } from 'rax';
-import { Root, Style, Script} from 'rax-document';
+import { Root, Style, Script } from 'rax-document';
 
 function Document() {
   return (

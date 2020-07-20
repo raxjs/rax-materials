@@ -2,15 +2,15 @@
   "name": "@rax-materials/scaffolds-web-app-js",
   "author": "rax",
   "description": "Rax Web 单页应用。官网：https://rax.js.org/",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "scripts": {
     "build": "build-scripts build",
     "start": "build-scripts start",
     "lint": "eslint --ext .js --ext .jsx ./"
   },
   "scaffoldConfig": {
-    "name": "Rax WebApp - js",
-    "title": "Rax WebApp - js",
+    "name": "Rax App - JS",
+    "title": "Rax App - JS",
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png"
   },
