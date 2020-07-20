@@ -1,22 +1,24 @@
 
 import Tab1 from '../Tabs/Tab1';
 import Tab2 from '../Tabs/Tab2';
-// import Tab3 from '..';
 
 export default [
   {
-    name: 'Tab1',
+    title: 'Tab1',
     key: 'tab1',
+    // 设置 tab 容器组件
     Component: Tab1
   },
   {
-    name: 'Tab2',
+    title: 'Tab2',
     key: 'tab2',
+    // 设置 tab 容器组件
     Component: Tab2
   },
   {
-    name: 'Tab3',
+    title: 'Tab3',
     key: 'tab3',
+    // 设置 tab 容器组件
     Component: Tab1
   }
 ];

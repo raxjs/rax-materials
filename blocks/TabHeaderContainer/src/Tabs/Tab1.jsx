@@ -12,7 +12,7 @@ export default function Tab1() {
   const [list, setList] = useState([]);
 
   // Tab 数据请求
-  const getData = async (options = {}) => {
+  const getData = async () => {
     setList(list.concat(mockArray));
   };
 

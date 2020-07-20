@@ -25,7 +25,7 @@ export default function TabHeader(props) {
                 onChange(index);
               }}
             >
-              <Text className={`tabHeaderText ${index === selectedIndex ? 'tabHeaderSelectedText' : ''}`}>{tab.name}</Text>
+              <Text className={`tabHeaderText ${index === selectedIndex ? 'tabHeaderSelectedText' : ''}`}>{tab.title}</Text>
             </View>
           );
         })}
