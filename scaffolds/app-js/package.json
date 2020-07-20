@@ -1,5 +1,5 @@
 {
-  "name": "@rax-materials/scaffolds-app-js",
+  "name": "@rax-materials/scaffolds-web-app-js",
   "author": "rax",
   "description": "Rax Web 单页应用。官网：https://rax.js.org/",
   "version": "0.1.0",
@@ -13,6 +13,9 @@
     "title": "Rax WebApp - js",
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "rax": "^1.1.0",
@@ -32,7 +35,6 @@
     "eslint-config-rax": "^0.1.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-module": "^0.1.0",
-    "eslint-plugin-react": "^7.18.0",
-
+    "eslint-plugin-react": "^7.18.0"
   }
 }
