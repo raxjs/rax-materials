@@ -4,10 +4,10 @@
     [
       "build-plugin-rax-app",
       {
-        "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa === true) { -%>,
+        "targets": ["<%- targets.join('", "') %>"]<%_ if (targets.includes('miniapp') || targets.includes('wechat-miniprogram')) { -%>,
         "miniapp": {
           "buildType": "<%= miniappType %>"
-        },
+        }<%_ } %><%_ if (mpa === true) { -%>,
         "type": "mpa"<%_ } %>
       }
     ]
