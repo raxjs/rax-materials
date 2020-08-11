@@ -30,7 +30,7 @@
   "devDependencies": {
     "@alib/build-scripts": "^0.1.0",
     "babel-eslint": "^10.0.3",
-    "build-plugin-rax-app": "^4.0.0",
+    "build-plugin-rax-app": "^5.0.0",
     "eslint": "^6.8.0",
     "eslint-config-rax": "^0.1.0",
     "eslint-plugin-import": "^2.20.0",
