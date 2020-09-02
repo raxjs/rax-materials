@@ -1,0 +1,17 @@
+.tabItemCard {
+  position: relative;
+  margin: 0 10rpx 10rpx;
+  width: 730rpx;
+  height: 200rpx;
+  border: 1rpx solid #999;
+  justify-content: center;
+}
+
+.tabItemCardText {
+  text-align: center;
+  font-size: 36rpx;
+}
+
+.tabItemCardRedText {
+  color: red;
+}

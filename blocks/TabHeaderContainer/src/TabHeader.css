@@ -1,0 +1,45 @@
+.tabHeader {
+  position: relative;
+  width: 750rpx;
+  height: 88rpx;
+  background-color: #F5F5F5;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.tabHeaderWrap {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabHeaderItem {
+  position: relative;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+
+.tabHeaderText {
+  font-size: 30rpx;
+  color: #111;
+}
+
+.tabHeaderSelectedText {
+  color: #FF5000;
+  font-weight: 600;
+}
+
+.tabHeaderLineWrap {
+  margin-top: 10rpx;
+  height: 6rpx;
+}
+
+.tabHeaderLine {
+  position: relative;
+  height: 6rpx;
+  border-radius: 3rpx;
+  background: linear-gradient(to right, #FF9000, #FF5000);
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
