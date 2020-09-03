@@ -1,7 +1,7 @@
 {
   "name": "tab-header-container",
   "author": "rax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "顶部TabBar ，Tab 切换时保活容器的区块",
   "main": "lib/index.js", 
   "files": [
