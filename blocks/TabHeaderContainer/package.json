@@ -1,25 +1,43 @@
 {
   "name": "tab-header-container",
+  "author": "rax",
   "version": "0.1.0",
   "description": "顶部TabBar ，Tab 切换时保活容器的区块",
+  "main": "lib/index.js", 
   "files": [
-    "build",
+    "dist",
+    "es",
+    "lib",
     "src",
     "demo"
   ],
+  "keywords": [
+    "Rax",
+    "rax-materials",
+    "blocks"
+  ],
+  "engines": {
+    "npm": ">=3.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
   "scripts": {
     "start": "build-scripts start",
     "build": "build-scripts build",
     "screenshot": "screenshot -l -s .device-view",
     "prepublishOnly": "npm run build && npm run screenshot"
   },
+  "blockConfig": {
+    "name": "TabHeaderContainer",
+    "title": "TabHeaderContainer",
+    "category": "Information",
+    "screenshot": "https://img.alicdn.com/tfs/TB17EN3ehvbeK8jSZPfXXariXXa-600-1086.png"
+  },
   "dependencies": {
     "rax-recyclerview": "^1.3.0",
     "rax-text": "^1.0.0",
     "rax-view": "^1.0.0"
-  },
-  "peerDependencies": {
-    "rax": "^1.1.0"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.0",
@@ -31,5 +49,8 @@
     "rax": "^1.1.0",
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
