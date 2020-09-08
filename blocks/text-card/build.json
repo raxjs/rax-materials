@@ -6,6 +6,7 @@
         "type": "rax",
         "targets": ["web"]
       }
-    ]
+    ],
+    "build-plugin-multi-demo-portal"
   ]
 }

@@ -1,10 +1,11 @@
 {
   "name": "@rax-materials/blocks-text-card",
   "author": "rax",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "module": "src/index.js",
   "files": [
+    "build",
     "dist",
     "es",
     "lib",
@@ -40,6 +41,7 @@
     "typescript": "^3.7.5",
     "@rax-types/rax": "^1.0.6",
     "@alib/build-scripts": "^0.1.0",
+    "build-plugin-multi-demo-portal": "^0.1.0",
     "build-plugin-rax-component": "^0.2.0",
     "driver-universal": "^3.1.0",
     "rax": "^1.1.0",
