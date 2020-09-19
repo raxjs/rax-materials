@@ -9,6 +9,8 @@ yarn-error.log
 coverage/
 .eslintcache
 .tmp/
+.faas_debug_tmp/
+.serverless/
 
 build
 blocks/**/lib/
@@ -17,3 +19,4 @@ blocks/**/es/
 components/**/lib/
 components/**/es/
 screenshot.png
+code.zip

@@ -7,6 +7,8 @@
 .DS_Store
 .idea/
 .temp/
+.faas_debug_tmp
+.serverless
 
 build/
 dist/
@@ -14,4 +16,5 @@ lib/
 coverage/
 node_modules/
 
+code.zip
 template.yml

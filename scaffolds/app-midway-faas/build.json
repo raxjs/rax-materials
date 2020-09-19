@@ -1,0 +1,15 @@
+{
+  "inlineStyle": false,
+  "plugins": [
+    [
+      "build-plugin-rax-app",
+      {
+        "targets": [
+          "web",
+          "miniapp"
+        ]
+      }
+    ],
+    "build-plugin-midway-faas"
+  ]
+}

@@ -1,0 +1,23 @@
+service:
+  name: rax-demo
+provider:
+  name: aliyun
+functions:
+  index:
+    handler: index.handler
+    events:
+      - http:
+          path: /api/index
+  pages:
+    handler: pages.render
+    events:
+      - http:
+          path: /*
+aggregation:
+  all:
+    functionsPattern:
+      - '*'
+package:
+  include:
+    - build
+  artifact: code.zip
