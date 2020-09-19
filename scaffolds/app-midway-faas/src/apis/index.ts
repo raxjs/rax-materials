@@ -10,9 +10,9 @@ export class IndexHandler implements FunctionHandler {
   @Inject()
   baseDir;
 
-  @Func('pages.render', { middleware: [ 'fmw:staticFile' ]})
+  @Func('assets.handler', { middleware: [ 'fmw:staticFile' ]})
   async render() {
-    return 'Page is not found';
+    return `Cannot GET ${this.ctx.request.path}`;
   }
   
   /**

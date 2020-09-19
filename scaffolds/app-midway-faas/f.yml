@@ -8,8 +8,8 @@ functions:
     events:
       - http:
           path: /api/index
-  pages:
-    handler: pages.render
+  assets:
+    handler: assets.handler
     events:
       - http:
           path: /*
