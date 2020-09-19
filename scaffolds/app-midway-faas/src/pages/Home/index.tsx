@@ -5,7 +5,8 @@ import request from 'universal-request';
 import Logo from '../../components/Logo';
 import './index.css';
 
-const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333': 'Replace your domain after publish api';
+// Replace your domain after publish api
+const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333': '/';
 
 export default function Home() {
   const [stars, setStars] = useState('');
