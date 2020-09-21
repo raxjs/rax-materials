@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-js",
   "author": "rax",
   "description": "Rax 无线跨端应用工程，使用 JavaScript。",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "build": "build-scripts build",
     "start": "build-scripts start",
@@ -23,8 +23,8 @@
     "driver-universal": "^3.0.0",
     "rax-image": "^2.0.0",
     "rax-link": "^1.0.1",
-    "rax-text": "^1.0.0",
-    "rax-view": "^1.0.0",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0",
     "rax-document": "^0.1.0"
   },
   "devDependencies": {
