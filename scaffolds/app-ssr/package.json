@@ -1,7 +1,7 @@
 {
-  "name": "rax-faas-demo-2",
+  "name": "rax-ssr-demo",
   "author": "rax",
-  "description": "结合 Midway FaaS 的 Rax 无线跨端应用工程",
+  "description": "结合 Midway FaaS 的 Rax SSR 应用工程",
   "version": "0.1.0",
   "scripts": {
     "deploy": "f deploy",
@@ -31,6 +31,7 @@
     "babel-eslint": "^10.0.3",
     "build-plugin-rax-app": "^5.0.0",
     "build-plugin-rax-ssr": "^3.0.4",
+    "build-plugin-midway-faas": "^1.0.0",
     "eslint": "^6.8.0",
     "eslint-config-rax": "^0.1.0",
     "eslint-plugin-import": "^2.20.0",
@@ -43,6 +44,12 @@
     "lifecycle": {
       "before:package:cleanup": "npm run build"
     }
+  },
+  "scaffoldConfig": {
+    "title": "Rax App - SSR",
+    "category": "Basic",
+    "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png",
+    "name": "Rax App - SSR"
   },
   "private": true,
   "originTemplate": "@rax-materials/scaffolds-app-ts"
