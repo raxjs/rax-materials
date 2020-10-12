@@ -1,18 +1,10 @@
 {
-  "inlineStyle": false,
-  "plugins": [
-    [
-      "build-plugin-rax-app",
-      {
-        "targets": ["<%- targets.join('", "') %>"]<%_ if (targets.includes('miniapp')) { -%>,
-        "miniapp": {
-          "buildType": "<%= miniappType %>"
-        }<%_ } %><%_ if (targets.includes('wechat-miniprogram')) { -%>,
-        "wechat-miniprogram": {
-          "buildType": "<%= miniappType %>"
-        }<%_ } %><%_ if (mpa === true) { -%>,
-        "type": "mpa"<%_ } %>
-      }
-    ]
-  ]
+  "plugins": [],
+  "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa) { -%><%_ if (targets.includes('web')) { %> , 
+  "web": {
+    "mpa": true
+  }<%_ } %><%_ } %><%_ if (mpa) { -%> <%_ if (targets.includes('weex')) { %>, 
+  "weex": {
+    "mpa": true
+  }<%_ } %><%_ } %>
 }

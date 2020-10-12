@@ -1,20 +1,7 @@
 {
-  "inlineStyle": false,
-  "plugins": [
-    [
-      "build-plugin-rax-app",
-      {
-        "targets": ["<%- targets.join('", "') %>"]<%_ if (targets.includes('miniapp')) { -%>,
-        "miniapp": {
-          "buildType": "<%= miniappType %>"
-        }<%_ } %><%_ if (targets.includes('wechat-miniprogram')) { -%>,
-        "wechat-miniprogram": {
-          "buildType": "<%= miniappType %>"
-        }<%_ } %><%_ if (mpa === true) { -%>,
-        "type": "mpa"<%_ } %>
-      }
-    ],
-    "build-plugin-rax-ssr",
-    "build-plugin-midway-faas"
-  ]
+  "plugins": ["build-plugin-midway-faas"],
+  "targets": ["web"],
+  "web": {
+    "ssr": true
+  }
 }

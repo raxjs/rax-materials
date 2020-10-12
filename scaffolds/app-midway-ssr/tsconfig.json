@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
     "module": "esNext",
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "target": "es2015",
     "outDir": "build",
     "jsx": "preserve",
@@ -11,15 +9,11 @@
     "sourceMap": true,
     "alwaysStrict": true,
     "baseUrl": ".",
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "allowSyntheticDefaultImports": true
+    "paths": {
+      "@/*": ["./src/*"],
+      "rax-app": [".rax/index.ts"],
+      "rax": ["node_modules/@types/rax"]
+    }
   },
-  "include": [
-    "./src/**/*", "src/apis/configuration.ts"
-  ],
-  "exclude": [
-    "build",
-    "node_modules"
-  ]
+  "include": ["src/*", ".rax", "src/apis/configuration.ts"]
 }
