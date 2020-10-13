@@ -7,7 +7,7 @@
     "deploy": "f deploy",
     "start": "rax-app start",
     "build": "rax-app build",
-    "lint": "eslint --ext .js,.jsx,.tsx,ts ./"
+    "lint": "eslint --ext .js,.jsx,.tsx,.ts ./"
   },
   "dependencies": {
     "@midwayjs/faas": "^1.2.1",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "rax-app": "^3.0.0",
+    "@types/rax": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.3",
