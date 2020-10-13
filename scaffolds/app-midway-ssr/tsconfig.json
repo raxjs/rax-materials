@@ -11,8 +11,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "rax-app": [".rax/index.ts"],
-      "rax": ["node_modules/@types/rax"]
+      "rax-app": [".rax/index.ts"]
     }
   },
   "include": ["src/*", ".rax", "src/apis/configuration.ts"]
