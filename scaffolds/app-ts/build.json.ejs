@@ -1,10 +1,9 @@
 {
-  "plugins": [],
-  "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa) { -%><%_ if (targets.includes('web')) { %> , 
+  "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa && targets.includes('web')) { -%> , 
   "web": {
     "mpa": true
-  }<%_ } %><%_ } %><%_ if (mpa) { -%> <%_ if (targets.includes('weex')) { %>, 
+  }<%_ } %><%_ if (mpa && targets.includes('weex') ) { -%> , 
   "weex": {
     "mpa": true
-  }<%_ } %><%_ } %>
+  }<%_ } %>
 }

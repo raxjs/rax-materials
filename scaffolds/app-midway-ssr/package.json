@@ -23,7 +23,6 @@
   "devDependencies": {
     "rax-app": "^3.0.0",
     "@midwayjs/faas-cli": "^1.2.14",
-    "@types/rax": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
     "babel-eslint": "^10.0.3",
