@@ -12,7 +12,7 @@ export default (props: LogoProps) => {
   const source = { uri };
   return (
     <Image
-      className="logo"
+      className="rax-demo-logo"
       source={source}
     />
   );
