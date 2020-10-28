@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * Scripts to check unpublished version and run publish
  */
@@ -10,14 +11,19 @@ import { IPackageInfo, getPackageInfos } from './getPackageInfos';
 function publish(pkg: string, version: string, directory: string): void {
   console.log('[PUBLISH]', `${pkg}@${version}`);
 
-  spawnSync('npm', [
-    'publish',
-    '--access', 'public'
-    // use default registry
-  ], {
-    stdio: 'inherit',
-    cwd: directory,
-  });
+  spawnSync(
+    'npm',
+    [
+      'publish',
+      '--access',
+      'public',
+      // use default registry
+    ],
+    {
+      stdio: 'inherit',
+      cwd: directory,
+    },
+  );
 }
 
 // Entry
@@ -25,9 +31,8 @@ console.log('[PUBLISH] Start:');
 
 Promise.all([
   getPackageInfos(join(__dirname, '../scaffolds')),
-  getPackageInfos(join(__dirname, '../blocks'))
+  getPackageInfos(join(__dirname, '../blocks')),
 ]).then((result: IPackageInfo[][]) => {
-
   let publishedCount = 0;
   const publishedPackages = [];
   // Publish
@@ -45,11 +50,13 @@ Promise.all([
   }
   setPublishedPackages(publishedPackages);
   // Check published packages can be finded.
-  checkPackagePublished().then(() => {
-    console.log(`[PUBLISH] Complete (count=${publishedCount}).`);
-    console.log(`${publishedPackages.join('\n')}`);
-  }).catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
+  checkPackagePublished()
+    .then(() => {
+      console.log(`[PUBLISH] Complete (count=${publishedCount}).`);
+      console.log(`${publishedPackages.join('\n')}`);
+    })
+    .catch((e) => {
+      console.error(e);
+      process.exit(1);
+    });
 });

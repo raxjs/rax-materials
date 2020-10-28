@@ -1,8 +1,7 @@
+/* eslint-disable no-console */
 import { existsSync, readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 import { getLatestVersion } from 'ice-npm-utils';
-
-const TIMEOUT = 8000; // ms
 
 export interface IPackageInfo {
   name: string;
@@ -12,7 +11,9 @@ export interface IPackageInfo {
 }
 
 function checkVersionExists(pkg: string, version: string): Promise<boolean> {
-  return getLatestVersion(pkg).then(latestVersion => version === latestVersion).catch(() => false);
+  return getLatestVersion(pkg)
+    .then((latestVersion) => version === latestVersion)
+    .catch(() => false);
 }
 
 export async function getPackageInfos(targetDir: string): Promise<IPackageInfo[]> {
@@ -20,36 +21,38 @@ export async function getPackageInfos(targetDir: string): Promise<IPackageInfo[]
   if (!existsSync(targetDir)) {
     console.log(`[ERROR] Directory ${targetDir} not exist!`);
   } else {
-    const packageFolders: string[] = readdirSync(targetDir).filter((filename) => filename[0] !== '.');
+    const packageFolders: string[] = readdirSync(targetDir).filter(
+      (filename) => filename[0] !== '.',
+    );
     console.log('[PUBLISH] Start check with following packages:');
-    await Promise.all(packageFolders.map(async (packageFolder) => {
+    await Promise.all(
+      packageFolders.map(async (packageFolder) => {
+        const directory = join(targetDir, packageFolder);
+        const packageInfoPath = join(directory, 'package.json');
 
-      const directory = join(targetDir, packageFolder);
-      const packageInfoPath = join(directory, 'package.json');
+        // Process package info.
+        if (existsSync(packageInfoPath)) {
+          const packageInfo = JSON.parse(readFileSync(packageInfoPath, 'utf8'));
+          const packageName = packageInfo.name || packageFolder;
 
-      // Process package info.
-      if (existsSync(packageInfoPath)) {
+          console.log(`- ${packageName}`);
 
-        const packageInfo = JSON.parse(readFileSync(packageInfoPath, 'utf8'));
-        const packageName = packageInfo.name || packageFolder;
-
-        console.log(`- ${packageName}`);
-
-        try {
-          packageInfos.push({
-            name: packageName,
-            directory,
-            localVersion: packageInfo.version,
-            // If localVersion not exist, publish it
-            shouldPublish: !await checkVersionExists(packageName, packageInfo.version)
-          });
-        } catch (e) {
-          console.log(`[ERROR] get ${packageName} information failed: `, e);
+          try {
+            packageInfos.push({
+              name: packageName,
+              directory,
+              localVersion: packageInfo.version,
+              // If localVersion not exist, publish it
+              shouldPublish: !(await checkVersionExists(packageName, packageInfo.version)),
+            });
+          } catch (e) {
+            console.log(`[ERROR] get ${packageName} information failed: `, e);
+          }
+        } else {
+          console.log(`[ERROR] ${packageFolder}'s package.json not found.`);
         }
-      } else {
-        console.log(`[ERROR] ${packageFolder}'s package.json not found.`);
-      }
-    }));
+      }),
+    );
   }
   return packageInfos;
 }
