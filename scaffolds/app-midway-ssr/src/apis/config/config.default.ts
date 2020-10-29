@@ -11,6 +11,6 @@ module.exports = (appInfo: any) => {
   exports.ssrConfig = {
     dir: join(appInfo.baseDir, '../build/node'),
   };
-  
+
   return exports;
 };

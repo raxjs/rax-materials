@@ -6,7 +6,7 @@ import Logo from '../../components/Logo';
 import './index.css';
 
 // Replace your domain after publish api
-const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333': '/';
+const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333' : '/';
 
 export default function Home() {
   const [stars, setStars] = useState('');
@@ -17,21 +17,23 @@ export default function Home() {
       method: 'GET',
       data: {
         from: 'Rax',
-      }
-    }).then(response => {
-      setStars(response.data.stars);
-    }).catch(error => {
-      console.log(error);
-    });
+      },
+    })
+      .then((response) => {
+        setStars(response.data.stars);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
 
   return (
-    <View className="home">
+    <View className="rax-demo-home">
       <Logo uri="//gw.alicdn.com/tfs/TB1MRC_cvb2gK0jSZK9XXaEgFXa-1701-1535.png" />
-      <Text className="title">Welcome to Your Rax App</Text>
-      <Text className="info">Stars: {stars}</Text>
-      <Text className="info">More information about Rax hello</Text>
-      <Text className="info">Visit https://rax.js.org</Text>
+      <Text className="rax-demo-title">Welcome to Your Rax App</Text>
+      <Text className="rax-demo-info">Stars: {stars}</Text>
+      <Text className="rax-demo-info">More information about Rax hello</Text>
+      <Text className="rax-demo-info">Visit https://rax.js.org</Text>
     </View>
   );
 }

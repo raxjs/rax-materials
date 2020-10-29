@@ -25,21 +25,23 @@ export default function TabHeader(props) {
                 onChange(index);
               }}
             >
-              <Text className={`tabHeaderText ${index === selectedIndex ? 'tabHeaderSelectedText' : ''}`}>{tab.title}</Text>
+              <Text className={`tabHeaderText ${index === selectedIndex ? 'tabHeaderSelectedText' : ''}`}>
+                {tab.title}
+              </Text>
             </View>
           );
         })}
       </View>
-      <View
-        className="tabHeaderLineWrap"
-        style={{ width: `${itemWidth * tabs.length}rpx` }}
-      >
-        <View className="tabHeaderLine" style={{
-          width: `${lineWidth}rpx`,
-          marginLeft: `${(itemWidth - lineWidth) / 2}rpx`,
-          transform: `translateX(${itemWidth * selectedIndex}rpx)`
-        }} />
+      <View className="tabHeaderLineWrap" style={{ width: `${itemWidth * tabs.length}rpx` }}>
+        <View
+          className="tabHeaderLine"
+          style={{
+            width: `${lineWidth}rpx`,
+            marginLeft: `${(itemWidth - lineWidth) / 2}rpx`,
+            transform: `translateX(${itemWidth * selectedIndex}rpx)`,
+          }}
+        />
       </View>
     </View>
   );
-};
+}

@@ -11,20 +11,23 @@ export default function TabContainer(props) {
   const currentTab = tabs[selectedIndex];
 
   if (!tabComponentCache[currentTab.key]) {
-    tabComponentCache[currentTab.key] = <currentTab.Component apiName={currentTab.apiName} apiVersion={currentTab.apiVersion} />;
+    tabComponentCache[currentTab.key] = (
+      <currentTab.Component apiName={currentTab.apiName} apiVersion={currentTab.apiVersion} />
+    );
   }
 
   return (
     <View className="tabContainer">
       <View
         className="tabContainerWrap"
-        style={({
-          width: `${750 * tabs.length}rpx`, transform: `translateX(-${selectedIndex * 750}rpx)`
-        })}
+        style={{
+          width: `${750 * tabs.length}rpx`,
+          transform: `translateX(-${selectedIndex * 750}rpx)`,
+        }}
       >
-        {tabs.map((tabItem, index) => {
+        {tabs.map((tabItem) => {
           return (
-            <View key={index} className="tabContainerItem">
+            <View key={`tab-${tabItem.key}`} className="tabContainerItem">
               {tabComponentCache[tabItem.key] || null}
             </View>
           );
@@ -32,4 +35,4 @@ export default function TabContainer(props) {
       </View>
     </View>
   );
-};
+}
