@@ -20,9 +20,7 @@ export async function getPackageInfos(targetDir: string): Promise<IPackageInfo[]
   if (!existsSync(targetDir)) {
     console.log(`[ERROR] Directory ${targetDir} not exist!`);
   } else {
-    const packageFolders: string[] = readdirSync(targetDir).filter(
-      (filename) => filename[0] !== '.',
-    );
+    const packageFolders: string[] = readdirSync(targetDir).filter((filename) => filename[0] !== '.');
     console.log('[PUBLISH] Start check with following packages:');
     await Promise.all(
       packageFolders.map(async (packageFolder) => {

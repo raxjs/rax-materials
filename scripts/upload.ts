@@ -16,10 +16,7 @@ injectComponents()
       timeout: '120s',
     })
       // @ts-ignore
-      .put(
-        path.join('assets', 'materials', 'rax-materials.json'),
-        path.resolve(__dirname, '../build/materials.json'),
-      )
+      .put(path.join('assets', 'materials', 'rax-materials.json'), path.resolve(__dirname, '../build/materials.json'))
       .then((result) => {
         console.log('materials.json upload success', result);
       });

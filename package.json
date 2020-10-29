@@ -10,6 +10,7 @@
     "sync": "ts-node ./scripts/upload.ts",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "prettier": "prettier **/* --write",
     "stylelint": "stylelint ./**/*.css"
   },
   "files": [
@@ -24,6 +25,7 @@
     "ice-npm-utils": "^2.0.0",
     "iceworks": "^3.2.5",
     "husky": "^4.3.0",
+    "prettier": "^2.1.2",
     "stylelint": "^13.1.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.7.5"
