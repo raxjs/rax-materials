@@ -8,9 +8,11 @@ export default async function injectComponents() {
     for (let i = 0, l = components.length; i < l; i++) {
       const component = components[i];
       if (
-        component.source && component.source.type === 'npm' &&
+        component.source &&
+        component.source.type === 'npm' &&
         // Version information is not set
-        component.source.npm && !component.source.version
+        component.source.npm &&
+        !component.source.version
       ) {
         component.source.version = await getLatestVersion(component.source.npm);
       }
