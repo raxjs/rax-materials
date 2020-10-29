@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import * as fse from 'fs-extra';
 import * as path from 'path';
 import { getLatestVersion } from 'ice-npm-utils';

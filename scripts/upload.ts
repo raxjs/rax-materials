@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import * as oss from 'ali-oss';
 import * as path from 'path';
 import injectComponents from './injectComponents';

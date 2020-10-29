@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import { getLatestVersion } from 'ice-npm-utils';
 import { getPublishedPackages } from './published-info';
 

@@ -25,14 +25,13 @@ export default function Tab1() {
 
   return (
     <RecyclerView className="tabContainerItem" onEndReached={onEndReached}>
-      {list &&
-        list.map((item, index) => {
-          return (
-            <View className="tabItemCard" key={index}>
-              <Text className="tabItemCardText tabItemCardRedText">Card: {item}</Text>
-            </View>
-          );
-        })}
+      {list && list.map((item, index) => {
+        return (
+          <View className="tabItemCard" key={index}>
+            <Text className="tabItemCardText tabItemCardRedText">Card: {item}</Text>
+          </View>
+        );
+      })}
     </RecyclerView>
   );
 }
