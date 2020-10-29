@@ -6,7 +6,7 @@ import Logo from '../../components/Logo';
 import './index.css';
 
 // Replace your domain after publish api
-const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333': '/';
+const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333' : '/';
 
 export default function Home() {
   const [stars, setStars] = useState('');
@@ -17,12 +17,14 @@ export default function Home() {
       method: 'GET',
       data: {
         from: 'Rax',
-      }
-    }).then(response => {
-      setStars(response.data.stars);
-    }).catch(error => {
-      console.log(error);
-    });
+      },
+    })
+      .then((response) => {
+        setStars(response.data.stars);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   }, []);
 
   return (

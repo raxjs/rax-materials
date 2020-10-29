@@ -2,7 +2,7 @@
   position: relative;
   width: 750rpx;
   height: 88rpx;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   align-items: center;
   justify-content: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -27,7 +27,7 @@
 }
 
 .tabHeaderSelectedText {
-  color: #FF5000;
+  color: #ff5000;
   font-weight: 600;
 }
 
@@ -40,6 +40,6 @@
   position: relative;
   height: 6rpx;
   border-radius: 3rpx;
-  background: linear-gradient(to right, #FF9000, #FF5000);
-  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  background: linear-gradient(to right, #ff9000, #ff5000);
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
