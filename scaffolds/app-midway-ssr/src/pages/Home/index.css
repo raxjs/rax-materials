@@ -1,15 +1,15 @@
-.home {
+.rax-demo-home {
   align-items: center;
   margin-top: 200rpx;
 }
 
-.title {
+.rax-demo-title {
   font-size: 45rpx;
   font-weight: bold;
   margin: 20rpx 0;
 }
 
-.info {
+.rax-demo-info {
   font-size: 36rpx;
   margin: 8rpx 0;
   color: #555;
