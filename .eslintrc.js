@@ -1,8 +1,9 @@
-const { eslint, deepmerge } = require('@ice/spec');
+const { getESLintConfig } = require('@iceworks/spec');
 
-module.exports = deepmerge(eslint, {
+module.exports = getESLintConfig('rax-ts', {
   rules: {
-    "react/react-in-jsx-scope": 0,
-    "jsx-a11y/html-has-lang": 0
-  },
+    'no-console': 'off',
+    '@typescript-eslint/no-require-imports': 'off',
+    '@iceworks/best-practices/no-js-in-ts-project': 'off'
+  }
 });

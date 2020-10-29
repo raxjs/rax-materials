@@ -1,6 +1,6 @@
 {
   "name": "rax-materials",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "This is a ice material project for Rax",
   "author": "",
   "scripts": {
@@ -8,23 +8,33 @@
     "publish": "ts-node ./scripts/publish.ts",
     "generate": "iceworks generate",
     "sync": "ts-node ./scripts/upload.ts",
-    "lint": "npm run eslint",
-    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "prettier": "prettier **/* --write",
     "stylelint": "stylelint ./**/*.css"
   },
   "files": [
     "build"
   ],
   "devDependencies": {
-    "@ice/spec": "^1.0.1",
+    "@commitlint/cli": "^11.0.0",
+    "@iceworks/spec": "^1.0.0",
     "ali-oss": "^6.9.1",
-    "eslint": "^6.0.1",
+    "eslint": "^6.8.0",
     "fs-extra": "^9.0.1",
     "ice-npm-utils": "^2.0.0",
     "iceworks": "^3.2.5",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
     "stylelint": "^13.1.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.7.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "npm run lint"
+    }
   },
   "materialConfig": {
     "template": "@icedesign/template-rax",
