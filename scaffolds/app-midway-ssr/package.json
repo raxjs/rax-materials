@@ -2,12 +2,14 @@
   "name": "@rax-materials/scaffolds-app-midway-ssr",
   "author": "rax",
   "description": "结合 Midway FaaS 的 Rax SSR 应用工程",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scripts": {
     "deploy": "f deploy",
     "start": "rax-app start",
     "build": "rax-app build",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./"
+    "eslint": "eslint --ext .js,.jsx,.tsx,.ts ./",
+    "stylelint": "stylelint ./**/*.css",
+    "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
     "@midwayjs/faas": "^1.2.1",
@@ -27,6 +29,7 @@
     "@midwayjs/faas-cli": "^1.2.14",
     "build-plugin-midway-faas": "^1.0.0",
     "eslint": "^6.8.0",
+    "stylelint": "^13.7.2",
     "typescript": "^3.7.5"
   },
   "midway-integration": {
