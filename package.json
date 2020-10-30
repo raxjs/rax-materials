@@ -9,7 +9,7 @@
     "generate": "iceworks generate",
     "sync": "ts-node ./scripts/upload.ts",
     "lint": "npm run eslint && npm run stylelint",
-    "eslint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "prettier": "prettier **/* --write",
     "stylelint": "stylelint ./**/*.css"
   },
