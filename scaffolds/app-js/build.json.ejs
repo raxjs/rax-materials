@@ -1,9 +1,9 @@
 {
-"targets": ["<%- targets.join('", "') %>"]<%_ if (mpa && targets.includes('web')) { -%> ,
-"web": {
-"mpa": true
-}<%_ } %><%_ if (mpa && targets.includes('weex') ) { -%> ,
-"weex": {
-"mpa": true
-}<%_ } %>
+  "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa && targets.includes('web')) { -%> , 
+  "web": {
+    "mpa": true
+  }<%_ } %><%_ if (mpa && targets.includes('weex') ) { -%> , 
+  "weex": {
+    "mpa": true
+  }<%_ } %>
 }
