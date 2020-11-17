@@ -2,12 +2,12 @@
   "name": "@rax-materials/scaffolds-app-ts",
   "author": "rax",
   "description": "Rax 无线跨端应用工程，使用 TypeScript。",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "scripts": {
     "start": "rax-app start",
     "build": "rax-app build",
     "eslint": "eslint --ext .js,.jsx,.tsx,.ts ./",
-    "stylelint": "stylelint ./**/*.css",
+    "stylelint": "stylelint './**/*.css'",
     "prettier": "prettier **/* --write",
     "lint": "npm run eslint && npm run stylelint"
   },
