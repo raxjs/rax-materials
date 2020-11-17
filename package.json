@@ -11,7 +11,7 @@
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "prettier": "prettier **/* --write",
-    "stylelint": "stylelint './**/*.css'"
+    "stylelint": "stylelint '**/*.{css,scss,less}'"
   },
   "files": [
     "build"

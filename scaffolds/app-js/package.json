@@ -7,7 +7,7 @@
     "start": "rax-app start",
     "build": "rax-app build",
     "eslint": "eslint --ext .js,.jsx ./",
-    "stylelint": "stylelint './**/*.css'",
+    "stylelint": "stylelint '**/*.{css,scss,less}'",
     "prettier": "prettier **/* --write",
     "lint": "npm run eslint && npm run stylelint"
   },
