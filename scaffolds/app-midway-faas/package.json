@@ -2,13 +2,13 @@
   "name": "@rax-materials/scaffolds-app-midway-faas",
   "author": "rax",
   "description": "结合 Midway FaaS 的 Rax 无线跨端应用工程",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "scripts": {
     "deploy": "f deploy",
     "start": "rax-app start",
     "build": "rax-app build",
     "eslint": "eslint --ext .js,.jsx,.tsx,.ts ./",
-    "stylelint": "stylelint '**/*.{css,scss,less}'",
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "lint": "npm run eslint && npm run stylelint"
   },
   "dependencies": {
