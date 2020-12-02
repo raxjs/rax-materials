@@ -3,7 +3,7 @@ import View from 'rax-view';
 import Text from 'rax-text';
 import request from 'universal-request';
 import Logo from '../../components/Logo';
-import './index.css';
+import styles from './index.module.css';
 
 // Replace your domain after publish api
 const domain = process.env.NODE_ENV === 'development' ? '//localhost:3333' : '/';
@@ -28,12 +28,12 @@ export default function Home() {
   }, []);
 
   return (
-    <View className="rax-demo-home">
+    <View className={styles.homeContainer}>
       <Logo uri="//gw.alicdn.com/tfs/TB1MRC_cvb2gK0jSZK9XXaEgFXa-1701-1535.png" />
-      <Text className="rax-demo-title">Welcome to Your Rax App</Text>
-      <Text className="rax-demo-info">Stars: {stars}</Text>
-      <Text className="rax-demo-info">More information about Rax hello</Text>
-      <Text className="rax-demo-info">Visit https://rax.js.org</Text>
+      <Text className={styles.homeTitle}>Welcome to Your Rax App</Text>
+      <Text className={styles.homeInfo}>Stars: {stars}</Text>
+      <Text className={styles.homeInfo}>More information about Rax hello</Text>
+      <Text className={styles.homeInfo}>Visit https://rax.js.org</Text>
     </View>
   );
 }
