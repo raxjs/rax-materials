@@ -1,7 +1,7 @@
 import { createElement } from 'rax';
 import Image from 'rax-image';
 
-import './index.css';
+import styles from './index.module.css';
 
 interface LogoProps {
   uri: string;
@@ -10,5 +10,5 @@ interface LogoProps {
 export default (props: LogoProps) => {
   const { uri } = props;
   const source = { uri };
-  return <Image className="rax-demo-logo" source={source} />;
+  return <Image className={styles.logo} source={source} />;
 };
