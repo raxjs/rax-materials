@@ -20,7 +20,4 @@ injectComponents()
       .then((result) => {
         console.log('materials.json upload success', result);
       });
-  })
-  .catch((e) => {
-    console.error(e);
   });
