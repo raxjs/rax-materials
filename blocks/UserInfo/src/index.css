@@ -41,7 +41,7 @@
   width: 100%;
   margin-top: 10rpx;
   font-size: 24rpx;
-  color: #999999;
+  color: #999;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -70,6 +70,6 @@
 
 .text {
   font-size: 24rpx;
-  color: #999999;
+  color: #999;
   margin-left: 6rpx;
 }

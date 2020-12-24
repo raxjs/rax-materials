@@ -8,7 +8,7 @@
 }
 
 .content {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   align-items: center; 
   width: 100%; 
   height: 576rpx; 
@@ -23,7 +23,7 @@
 .text {
   margin-top: 36rpx;
   padding: 0 24rpx;
-  overflow : hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -38,13 +38,13 @@
   border-radius: 40rpx;
   color: white;
   font-size: 32rpx;
-  background: linear-gradient(to right, #FF8F00, #FF5000);
+  background: linear-gradient(to right, #ff8f00, #ff5000);
   margin-top: 30rpx;
 }
 
 .cancel {
   margin-top: 22rpx;
-  color: #999999;
+  color: #999;
   font-size: 28rpx;
 }
 
