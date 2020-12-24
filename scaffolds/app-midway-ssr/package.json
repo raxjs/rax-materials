@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-midway-ssr",
   "author": "rax",
   "description": "结合 Midway FaaS 的 Rax SSR 应用工程",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "scripts": {
     "deploy": "f deploy",
     "start": "rax-app start",
