@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-midway-faas",
   "author": "rax",
   "description": "结合 Midway FaaS 的 Rax 无线跨端应用工程",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "scripts": {
     "deploy": "f deploy",
     "start": "rax-app start",
