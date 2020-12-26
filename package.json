@@ -13,7 +13,7 @@
     "eslint:fix": "npm run eslint -- --fix",
     "prettier": "prettier **/* --write",
     "stylelint": "stylelint '**/*.{css,scss,less}'",
-    "stylelint:fix": "npm run stylelint --fix"
+    "stylelint:fix": "npm run stylelint -- --fix"
   },
   "files": [
     "build"

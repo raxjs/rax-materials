@@ -5,8 +5,8 @@
 }
 
 .pic {
-  width: 224rpx;
-  height: 224rpx;
+  width: 306rpx;
+  height: 168rpx;
 }
 
 .title {
@@ -20,7 +20,7 @@
   color: #999;
 }
 
-.refreshBtn {
+.backBtn {
   align-items: center;
   justify-content: center;
   font-size: 28rpx;
