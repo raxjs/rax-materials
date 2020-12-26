@@ -1,0 +1,8 @@
+{
+  "type": "rax",
+  "targets": ["web"],
+  "inlineStyle": true,
+  "plugins": [
+    "build-plugin-component"
+  ]
+}

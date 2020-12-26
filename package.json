@@ -42,5 +42,8 @@
   "materialConfig": {
     "template": "@icedesign/template-rax",
     "type": "rax"
+  },
+  "dependencies": {
+    "@alifd/meet": "^2.2.4"
   }
 }
