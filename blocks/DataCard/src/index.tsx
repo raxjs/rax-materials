@@ -16,17 +16,16 @@ const dataList = [
 
 const DataCard = () => {
   return (
-    <View className="wrap">
-      <View className="card">
-        <View className="header">
-          <View className="title-wrap">
-            <Text className="title">数据中心</Text>
-            <Text className="date">2020.09.07更新</Text>
-          </View>
-          <Picture className="arrow" source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01DuirLv1IdZRcoR71K_!!6000000000916-2-tps-12-20.png' }} />
+    <View className="card">
+      <View className="header">
+        <View className="title-wrap">
+          <Text className="title">数据中心</Text>
+          <Text className="date">2020.09.07更新</Text>
         </View>
-        <View className="data">
-          {
+        <Picture className="arrow" source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01DuirLv1IdZRcoR71K_!!6000000000916-2-tps-12-20.png' }} />
+      </View>
+      <View className="data">
+        {
             dataList.map((item) => {
               const isRise = item.change.indexOf('-') === -1;
               return (
@@ -47,7 +46,6 @@ const DataCard = () => {
               );
             })
           }
-        </View>
       </View>
     </View>
   );
