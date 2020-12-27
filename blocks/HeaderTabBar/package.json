@@ -14,7 +14,8 @@
     "prepublishOnly": "npm run build && npm run screenshot"
   },
   "dependencies": {
-    "rax-text": "^2.0.0",
+    "@alifd/meet": "^2.2.4",
+    "rax-picture": "^2.2.1",
     "rax-view": "^2.0.0"
   },
   "peerDependencies": {
