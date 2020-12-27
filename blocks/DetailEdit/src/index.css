@@ -1,3 +1,24 @@
-.wrap {
-  background-color: #666;
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24rpx;
+}
+
+.textInput {
+  margin-top: 26rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  color: #333;
+}
+
+.btn {
+  font-size: 30rpx;
+  color: #484a54;
+}
+
+.submitBtn {
+  color: #ff2851;
 }
