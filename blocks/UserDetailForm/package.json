@@ -14,6 +14,7 @@
     "prepublishOnly": "npm run build && npm run screenshot"
   },
   "dependencies": {
+    "rax-picture": "^2.2.1",
     "rax-scrollview": "^3.3.4",
     "rax-text": "^2.0.0",
     "rax-view": "^2.0.0"
