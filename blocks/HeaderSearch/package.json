@@ -1,7 +1,7 @@
 {
   "name": "@rax-materials/header-search",
   "version": "0.1.0",
-  "description": "intro block",
+  "description": "Header Search Block",
   "files": [
     "build",
     "src",
@@ -31,5 +31,6 @@
     "rax": "^1.1.0",
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "homepage": "https://unpkg.com/@rax-materials/header-search@0.1.0/build/index.html"
 }

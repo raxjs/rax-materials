@@ -1,7 +1,7 @@
 {
-  "name": "detail-form",
+  "name": "@rax-materials/detail-form",
   "version": "0.1.0",
-  "description": "intro block",
+  "description": "Detail Form Block",
   "files": [
     "build",
     "src",
@@ -30,5 +30,6 @@
     "rax": "^1.1.0",
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "homepage": "https://unpkg.com/detail-form@0.1.0/build/index.html"
 }

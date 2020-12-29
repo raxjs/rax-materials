@@ -9,7 +9,7 @@ basic usage
 ```jsx
 import { createElement, render } from 'rax';
 import DriverUniversal from 'driver-universal';
-import MyComponent from '@rax-materials/exception';
+import MyComponent from '@rax-materials/exception-block';
 
 render(<MyComponent />, document.body, { driver: DriverUniversal });
 ```

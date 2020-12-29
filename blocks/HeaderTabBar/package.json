@@ -1,7 +1,7 @@
 {
   "name": "@rax-materials/header-tab-bar",
   "version": "0.1.0",
-  "description": "intro block",
+  "description": "Header Tab Bar",
   "files": [
     "build",
     "src",
@@ -30,5 +30,6 @@
     "rax": "^1.1.0",
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "homepage": "https://unpkg.com/@rax-materials/header-tab-bar@0.1.0/build/index.html"
 }

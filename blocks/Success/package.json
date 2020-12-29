@@ -1,5 +1,5 @@
 {
-  "name": "@rax-materials/success",
+  "name": "@rax-materials/success-block",
   "version": "0.1.0",
   "description": "Success Block",
   "files": [
@@ -30,5 +30,6 @@
     "rax": "^1.1.0",
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.0/build/index.html"
 }
