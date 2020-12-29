@@ -10,7 +10,7 @@ const HeaderTabBar = () => {
 
   return (
     <View className="container">
-      <Picture className="searchIcon" source={{ uri: 'https://img.alicdn.com/imgextra/i4/O1CN01EYyUSR1aPWNXTZtOa_!!6000000003322-2-tps-32-32.png' }} />
+      <Picture className="icon" source={{ uri: 'https://img.alicdn.com/imgextra/i4/O1CN01EYyUSR1aPWNXTZtOa_!!6000000003322-2-tps-32-32.png' }} />
       <Tab
         fullWidth={false}
         activeKey={curActiveKey}
@@ -26,7 +26,7 @@ const HeaderTabBar = () => {
           setActiveKey(v);
         }}
       />
-      <Picture className="scanIcon" source={{ uri: 'https://img.alicdn.com/imgextra/i3/O1CN01YV4ZrS1yPZCE83i0l_!!6000000006571-2-tps-32-32.png' }} />
+      <Picture className="icon" source={{ uri: 'https://img.alicdn.com/imgextra/i3/O1CN01MMFtK825MXtVDMTXT_!!6000000007512-2-tps-32-32.png' }} />
     </View>
   );
 };

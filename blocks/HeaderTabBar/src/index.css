@@ -1,17 +1,10 @@
-@import "@alifd/meet/lib/tab/styles/index.css";
-
 .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.searchIcon {
-  width: 44rpx;
-  height: 44rpx;
-}
-
-.scanIcon {
-  width: 50rpx;
-  height: 50rpx;
+.icon {
+  width: 42rpx;
+  height: 42rpx;
 }

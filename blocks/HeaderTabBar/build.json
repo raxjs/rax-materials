@@ -1,7 +1,7 @@
 {
   "type": "rax",
   "targets": ["web"],
-  "inlineStyle": true,
+  "inlineStyle": false,
   "plugins": [
     "build-plugin-component"
   ]
