@@ -32,5 +32,11 @@
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
   },
+  "blockConfig": {
+    "name": "UserDetailForm",
+    "title": "UserDetailForm",
+    "category": "Information",
+    "screenshot": ""
+  },
   "homepage": "https://unpkg.com/@rax-materials/user-detail-form@0.1.0/build/index.html"
 }

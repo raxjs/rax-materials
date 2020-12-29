@@ -31,5 +31,11 @@
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
   },
-  "homepage": "https://unpkg.com/@rax-materials/exception@0.1.0/build/index.html"
+  "blockConfig": {
+    "name": "ExceptionBlock",
+    "title": "ExceptionBlock",
+    "category": "Information",
+    "screenshot": ""
+  },
+  "homepage": "https://unpkg.com/@rax-materials/exception-block@0.1.0/build/index.html"
 }

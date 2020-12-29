@@ -33,5 +33,11 @@
     "rax-test-renderer": "^1.0.0",
     "typescript": "^3.7.5"
   },
+  "blockConfig": {
+    "name": "ConfirmModal",
+    "title": "ConfirmModal",
+    "category": "Information",
+    "screenshot": ""
+  },
   "homepage": "https://unpkg.com/@rax-materials/confirm-modal@0.1.0/build/index.html"
 }
