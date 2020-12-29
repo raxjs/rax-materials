@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@alifd/meet": "^2.2.4",
+    "rax-picture": "^2.2.1",
     "rax-text": "^2.0.0",
     "rax-view": "^2.0.0"
   },

@@ -1,3 +1,31 @@
 .wrap {
   width: 100%;
 }
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32rpx;
+}
+
+.candidate-title {
+  color: #666;
+  font-size: 28rpx;
+}
+
+.icon {
+  height: 32rpx;
+  width: 32rpx;
+}
+
+.tags-container {
+  margin-top: 30rpx;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tag {
+  margin: 0 20rpx 20rpx 0;
+}
