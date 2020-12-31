@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -33,8 +34,8 @@
   },
   "blockConfig": {
     "name": "SuccessBlock",
-    "title": "SuccessBlock",
-    "category": "Information",
+    "title": "Success Block",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.0/build/index.html"

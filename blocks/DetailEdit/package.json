@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -34,7 +35,7 @@
   "blockConfig": {
     "name": "DetailEdit",
     "title": "DetailEdit",
-    "category": "Information",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/detail-edit@0.1.0/build/index.html"

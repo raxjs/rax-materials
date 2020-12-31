@@ -27,19 +27,19 @@
   flex-flow: wrap;
 }
 
-.data-item {
+.dataItem {
   align-items: center;
   margin-top: 20rpx;
   width: 140rpx;
   flex: 0 0 25%;
 }
 
-.data-item-icon {
+.dataItemIcon {
   width: 70rpx;
   height: 70rpx;
 }
 
-.data-item-title {
+.dataItemTitle {
   margin-top: 16rpx;
   font-size: 24rpx;
   color: #666;

@@ -3,8 +3,7 @@ import View from 'rax-view';
 import Text from 'rax-text';
 import Picture from 'rax-picture';
 import { Search, Tag } from '@alifd/meet';
-
-import './index.css';
+import styles from './index.module.css';
 
 const historyTagList = ['2019年新款', '2019年男装'];
 
@@ -25,18 +24,18 @@ const HeaderSearch = () => {
   const onRefresh = () => {};
 
   return (
-    <View className="wrap">
+    <View className={styles.wrap}>
       <Search size="small" value={searchValue} hasClear hasCancel onChange={onSearchChange} />
       {!!historyTags.length && (
         <>
-          <View className="title">
-            <Text className="candidate-title">历史记录</Text>
-            <Picture onClick={onRemoveHistory} className="icon" source={{ uri: 'https://img.alicdn.com/imgextra/i1/O1CN01KHZB941Ux3gUqpA62_!!6000000002583-2-tps-32-32.png' }} />
+          <View className={styles.title}>
+            <Text className={styles.candidateTitle}>历史记录</Text>
+            <Picture onClick={onRemoveHistory} className={styles.icon} source={{ uri: 'https://img.alicdn.com/imgextra/i1/O1CN01KHZB941Ux3gUqpA62_!!6000000002583-2-tps-32-32.png' }} />
           </View>
-          <View className="tags-container">
+          <View className={styles.tagsContainer}>
             {
               historyTags.map((item) => (
-                <Tag size="small" type="normal" className="tag">
+                <Tag size="small" type="normal" className={styles.tag}>
                   {item}
                 </Tag>
               ))
@@ -44,14 +43,14 @@ const HeaderSearch = () => {
           </View>
         </>
       )}
-      <View className="title">
-        <Text className="candidate-title">热门搜索</Text>
-        <Picture className="icon" onClick={onRefresh} source={{ uri: 'https://img.alicdn.com/imgextra/i3/O1CN01WY4Ht426ThhVUxsyp_!!6000000007663-2-tps-32-32.png' }} />
+      <View className={styles.title}>
+        <Text className={styles.candidateTitle}>热门搜索</Text>
+        <Picture className={styles.icon} onClick={onRefresh} source={{ uri: 'https://img.alicdn.com/imgextra/i3/O1CN01WY4Ht426ThhVUxsyp_!!6000000007663-2-tps-32-32.png' }} />
       </View>
-      <View className="tags-container">
+      <View className={styles.tagsContainer}>
         {
           hotTags.map((item) => (
-            <Tag size="small" type="normal" className="tag">
+            <Tag size="small" type="normal" className={styles.tag}>
               {item}
             </Tag>
           ))

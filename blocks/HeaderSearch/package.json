@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -34,8 +35,8 @@
   },
   "blockConfig": {
     "name": "HeaderSearch",
-    "title": "HeaderSearch",
-    "category": "Information",
+    "title": "Header Search",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/header-search@0.1.0/build/index.html"

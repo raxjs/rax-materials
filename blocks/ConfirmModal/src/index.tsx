@@ -3,9 +3,9 @@ import Modal from 'rax-modal';
 import View from 'rax-view';
 import Text from 'rax-text';
 import Picture from 'rax-picture';
+import styles from './index.module.css';
 
-import './index.css';
-
+console.log(styles);
 const ConfirmModal = () => {
   const [visible, setVisible] = useState(true);
 
@@ -33,14 +33,14 @@ const ConfirmModal = () => {
         alignItems: 'center',
       }}
     >
-      <View className="modal">
-        <View className="content">
-          <Picture className="picture" source={{ uri: 'https://img.alicdn.com/tfs/TB182FN37Y2gK0jSZFgXXc5OFXa-268-147.png' }} />
-          <Text className="text">邀请你一起参加只逛淘宝不还钱挑战，最终大奖可赢iPhone12</Text>
-          <View className="confirm" onClick={handleConfirmSwitch}>确认</View>
-          <View className="cancel" onClick={handleModalClose}>取消</View>
+      <View className={styles.modal}>
+        <View className={styles.content}>
+          <Picture className={styles.picture} source={{ uri: 'https://img.alicdn.com/tfs/TB182FN37Y2gK0jSZFgXXc5OFXa-268-147.png' }} />
+          <Text className={styles.text}>邀请你一起参加只逛淘宝不还钱挑战，最终大奖可赢iPhone12</Text>
+          <View className={styles.confirm} onClick={handleConfirmSwitch}>确认</View>
+          <View className={styles.cancel} onClick={handleModalClose}>取消</View>
         </View>
-        <Picture className="close-icon" onClick={handleModalClose} source={{ uri: 'https://gw.alicdn.com/tfs/TB1wL2t11L2gK0jSZFmXXc7iXXa-120-120.png' }} />
+        <Picture className={styles.closeIcon} onClick={handleModalClose} source={{ uri: 'https://gw.alicdn.com/tfs/TB1wL2t11L2gK0jSZFmXXc7iXXa-120-120.png' }} />
       </View>
     </Modal>
   );

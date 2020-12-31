@@ -2,8 +2,7 @@ import { createElement } from 'rax';
 import View from 'rax-view';
 import Text from 'rax-text';
 import Picture from 'rax-picture';
-
-import './index.css';
+import styles from './index.module.css';
 
 const dataList = [
   { name: '收录指南', iconUrl: 'https://img.alicdn.com/imgextra/i2/O1CN014vlGjU1LLenjKqFyj_!!6000000001283-2-tps-69-75.png' },
@@ -18,18 +17,18 @@ const DataCard = () => {
   };
 
   return (
-    <View className="card">
-      <View className="header">
-        <Text className="title">创作中心</Text>
-        <Picture className="arrow" source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01DuirLv1IdZRcoR71K_!!6000000000916-2-tps-12-20.png' }} />
+    <View className={styles.card}>
+      <View className={styles.header}>
+        <Text className={styles.title}>创作中心</Text>
+        <Picture className={styles.arrow} source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01DuirLv1IdZRcoR71K_!!6000000000916-2-tps-12-20.png' }} />
       </View>
-      <View className="data">
+      <View className={styles.data}>
         {
             dataList.map((item) => {
               return (
-                <View className="data-item" onClick={() => onDataItemClick(item)}>
-                  <Picture className="data-item-icon" source={{ uri: item.iconUrl }} />
-                  <Text className="data-item-title">{item.name}</Text>
+                <View className={styles.dataItem} onClick={() => onDataItemClick(item)}>
+                  <Picture className={styles.dataItemIcon} source={{ uri: item.iconUrl }} />
+                  <Text className={styles.dataItemTitle}>{item.name}</Text>
                 </View>
               );
             })

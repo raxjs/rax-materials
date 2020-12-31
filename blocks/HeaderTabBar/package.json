@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@alifd/meet": "^2.2.4",
+    "classnames": "^2.2.6",
     "rax-picture": "^2.2.1",
     "rax-view": "^2.0.0"
   },
@@ -33,8 +35,8 @@
   },
   "blockConfig": {
     "name": "HeaderTabBar",
-    "title": "HeaderTabBar",
-    "category": "Information",
+    "title": "Header Tab Bar",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/header-tab-bar@0.1.0/build/index.html"

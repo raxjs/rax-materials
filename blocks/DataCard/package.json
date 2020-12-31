@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -33,8 +34,8 @@
   },
   "blockConfig": {
     "name": "DataCard",
-    "title": "DataCard",
-    "category": "Information",
+    "title": "Data Card",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/data-card@0.1.0/build/index.html"

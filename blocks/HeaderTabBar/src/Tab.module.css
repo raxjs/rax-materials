@@ -1,4 +1,4 @@
-.tabs-container {
+.tabsContainer {
   flex-direction: row;
   align-items: center;
 }
@@ -11,13 +11,13 @@
   position: relative;
 }
 
-.tab-selected {
+.tabSelected {
   color: #000;
   font-size: 36rpx;
   font-weight: 500;
 }
 
-.tab-selected-bottom-line {
+.tabSelectedBottomLine {
   width: 40rpx;
   height: 6rpx;
   background-image: linear-gradient(to right, #ff9500, #ff5000);

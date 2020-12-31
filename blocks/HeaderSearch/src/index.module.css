@@ -10,7 +10,7 @@
   margin-top: 32rpx;
 }
 
-.candidate-title {
+.candidateTitle {
   color: #666;
   font-size: 28rpx;
 }
@@ -20,7 +20,7 @@
   width: 32rpx;
 }
 
-.tags-container {
+.tagsContainer {
   margin-top: 30rpx;
   flex-direction: row;
   flex-wrap: wrap;

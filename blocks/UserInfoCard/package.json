@@ -5,7 +5,8 @@
   "files": [
     "build",
     "src",
-    "demo"
+    "demo",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -32,9 +33,9 @@
     "typescript": "^3.7.5"
   },
   "blockConfig": {
-    "name": "UserInfo",
-    "title": "UserInfo",
-    "category": "Information",
+    "name": "UserInfoCard",
+    "title": "User Info Card",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/@rax-materials/user-info-card@0.1.0/build/index.html"
