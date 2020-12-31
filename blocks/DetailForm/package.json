@@ -35,7 +35,7 @@
   "blockConfig": {
     "name": "DetailForm",
     "title": "DetailForm",
-    "category": "Information",
+    "category": "Common",
     "screenshot": ""
   },
   "homepage": "https://unpkg.com/detail-form@0.1.0/build/index.html"
