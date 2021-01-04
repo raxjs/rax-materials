@@ -24,15 +24,15 @@ const DataCard = () => {
       </View>
       <View className={styles.data}>
         {
-            dataList.map((item) => {
-              return (
-                <View className={styles.dataItem} onClick={() => onDataItemClick(item)}>
-                  <Picture className={styles.dataItemIcon} source={{ uri: item.iconUrl }} />
-                  <Text className={styles.dataItemTitle}>{item.name}</Text>
-                </View>
-              );
-            })
-          }
+          dataList.map((item) => {
+            return (
+              <View className={styles.dataItem} onClick={() => onDataItemClick(item)}>
+                <Picture className={styles.dataItemIcon} source={{ uri: item.iconUrl }} />
+                <Text className={styles.dataItemTitle}>{item.name}</Text>
+              </View>
+            );
+          })
+        }
       </View>
     </View>
   );

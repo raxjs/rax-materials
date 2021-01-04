@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Success Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -36,7 +34,7 @@
     "name": "SuccessBlock",
     "title": "Success Block",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01uDTMdN1vyQUzMU7XA_!!6000000006241-2-tps-309-407.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.0/build/index.html"
 }

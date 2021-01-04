@@ -19,7 +19,7 @@ const DataCard = () => {
       <View className={styles.header}>
         <View className={styles.titleWrap}>
           <Text className={styles.title}>数据中心</Text>
-          <Text className={styles.date}>2020.09.07更新</Text>
+          <Text className={styles.date}>2020.09.07 更新</Text>
         </View>
         <Picture className={styles.arrow} source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01DuirLv1IdZRcoR71K_!!6000000000916-2-tps-12-20.png' }} />
       </View>

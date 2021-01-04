@@ -5,7 +5,6 @@ import Text from 'rax-text';
 import Picture from 'rax-picture';
 import styles from './index.module.css';
 
-console.log(styles);
 const ConfirmModal = () => {
   const [visible, setVisible] = useState(true);
 
@@ -36,7 +35,7 @@ const ConfirmModal = () => {
       <View className={styles.modal}>
         <View className={styles.content}>
           <Picture className={styles.picture} source={{ uri: 'https://img.alicdn.com/tfs/TB182FN37Y2gK0jSZFgXXc5OFXa-268-147.png' }} />
-          <Text className={styles.text}>邀请你一起参加只逛淘宝不还钱挑战，最终大奖可赢iPhone12</Text>
+          <Text className={styles.text} numberOfLines={2}>邀请你一起参加只逛淘宝不还钱挑战，最终大奖可赢 iPhone12</Text>
           <View className={styles.confirm} onClick={handleConfirmSwitch}>确认</View>
           <View className={styles.cancel} onClick={handleModalClose}>取消</View>
         </View>

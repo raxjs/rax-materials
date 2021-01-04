@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Confirm Modal Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -15,7 +13,6 @@
     "prepublishOnly": "npm run build && npm run screenshot"
   },
   "dependencies": {
-    "@alifd/meet": "^2.2.3",
     "rax-modal": "^1.5.5",
     "rax-picture": "^2.2.1",
     "rax-text": "^2.0.0",
@@ -38,7 +35,7 @@
     "name": "ConfirmModal",
     "title": "Confirm Modal",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01t50XuM2992gS2citZ_!!6000000008024-2-tps-297-381.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/confirm-modal@0.1.0/build/index.html"
 }

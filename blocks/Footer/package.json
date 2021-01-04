@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Footer Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -36,7 +34,7 @@
     "name": "Footer",
     "title": "Footer",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01r4ewSn1q36qusfB3v_!!6000000005439-2-tps-306-76.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/footer@0.1.0/build/index.html"
 }

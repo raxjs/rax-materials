@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Exception Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -36,7 +34,7 @@
     "name": "ExceptionBlock",
     "title": "Exception Block",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01NK3cb81zmkrqijiQA_!!6000000006757-2-tps-319-478.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/exception-block@0.1.0/build/index.html"
 }

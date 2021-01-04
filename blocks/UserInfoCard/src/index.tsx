@@ -13,7 +13,7 @@ const UserInfo = () => {
           <Text className={styles.nickname}>草莓夹心酱</Text>
           <Picture className={styles.icon} source={{ uri: 'https://img.alicdn.com/imgextra/i2/O1CN01AgkCqW22rk1KOEncr_!!6000000007174-2-tps-32-32.png' }} />
         </View>
-        <Text className={styles.desc}>我是一个爱穿搭，爱跳舞的淘同学，快来找我玩</Text>
+        <Text className={styles.desc} numberOfLines={1}>我是一个爱穿搭，爱跳舞的淘同学，快来找我玩</Text>
         <View className={styles.detail}>
           <View className={styles.detailItem}>
             <Text className={styles.number}>452</Text>

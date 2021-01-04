@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Data Card Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -36,7 +34,7 @@
     "name": "DataCard",
     "title": "Data Card",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN016O9RjL1CQOM3WxXaj_!!6000000000075-2-tps-296-186.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/data-card@0.1.0/build/index.html"
 }

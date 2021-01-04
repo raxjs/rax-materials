@@ -23,11 +23,6 @@
 .text {
   margin-top: 36rpx;
   padding: 0 24rpx;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
 }
 
 .confirm {

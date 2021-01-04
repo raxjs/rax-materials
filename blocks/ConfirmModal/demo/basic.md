@@ -7,15 +7,9 @@ order: 1
 basic usage
 
 ```jsx
-import { createElement } from 'rax';
-import View from 'rax-view';
+import { createElement, render } from 'rax';
+import DriverUniversal from 'driver-universal';
 import MyComponent from '@rax-materials/confirm-modal';
 
-const App = () => (
-  <View>
-    <MyComponent />
-  </View>
-)
-
-export default App;
+render(<MyComponent />, document.body, { driver: DriverUniversal });
 ```

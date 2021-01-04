@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Header Search Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -37,7 +35,7 @@
     "name": "HeaderSearch",
     "title": "Header Search",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01yBCgEj1X5sY4rr3E0_!!6000000002873-2-tps-736-502.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/header-search@0.1.0/build/index.html"
 }

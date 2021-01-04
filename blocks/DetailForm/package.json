@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Detail Form Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -34,9 +32,9 @@
   },
   "blockConfig": {
     "name": "DetailForm",
-    "title": "DetailForm",
+    "title": "Detail Form",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01vwvJvj1YxkklUGn74_!!6000000003126-2-tps-290-414.png"
   },
   "homepage": "https://unpkg.com/detail-form@0.1.0/build/index.html"
 }

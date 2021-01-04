@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "description": "Grid List Block",
   "files": [
-    "build",
-    "src",
-    "demo",
-    "!src/typings.d.ts"
+    "src/!(style.d.ts)",
+    "screenshot.png"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -36,7 +34,7 @@
     "name": "GridList",
     "title": "Grid List",
     "category": "Common",
-    "screenshot": ""
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN010bcxGh1fOfj6Qabvj_!!6000000003997-2-tps-292-105.png"
   },
   "homepage": "https://unpkg.com/@rax-materials/grid-list@0.1.0/build/index.html"
 }
