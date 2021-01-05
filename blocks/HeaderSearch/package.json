@@ -3,14 +3,11 @@
   "version": "0.1.0",
   "description": "Header Search Block",
   "files": [
-    "src/!(style.d.ts)",
-    "screenshot.png"
+    "src/!(style.d.ts)"
   ],
   "scripts": {
     "start": "build-scripts start",
-    "build": "build-scripts build",
-    "screenshot": "screenshot -l -s .device-view",
-    "prepublishOnly": "npm run build && npm run screenshot"
+    "build": "build-scripts build"
   },
   "dependencies": {
     "@alifd/meet": "^2.2.4",
@@ -23,7 +20,6 @@
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.0",
-    "@ice/screenshot": "^0.1.5",
     "@types/rax": "^1.0.0",
     "build-plugin-component": "^1.0.0",
     "driver-universal": "^3.1.0",
