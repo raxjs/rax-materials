@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/success-block",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Success Block",
   "files": [
     "src/!(style.d.ts)"
@@ -30,7 +30,7 @@
     "name": "SuccessBlock",
     "title": "Success Block",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01uDTMdN1vyQUzMU7XA_!!6000000006241-2-tps-309-407.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01FsbKDg1VZWxbLfLVm_!!6000000002667-2-tps-374-458.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.0/build/index.html"
+  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.1/build/index.html"
 }

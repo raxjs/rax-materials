@@ -2,4 +2,4 @@
 
 Common header search.
 
-![screenshot](https://img.alicdn.com/imgextra/i4/O1CN01yBCgEj1X5sY4rr3E0_!!6000000002873-2-tps-736-502.png)
+![screenshot](https://img.alicdn.com/imgextra/i1/O1CN01RWWPHF1dRIljAqarD_!!6000000003732-2-tps-374-235.png)

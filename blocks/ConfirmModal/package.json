@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/confirm-modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Confirm Modal Block",
   "files": [
     "src/!(style.d.ts)"
@@ -31,7 +31,7 @@
     "name": "ConfirmModal",
     "title": "Confirm Modal",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01t50XuM2992gS2citZ_!!6000000008024-2-tps-297-381.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01KMcDey1X2fmEtMc6E_!!6000000002866-2-tps-364-460.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/confirm-modal@0.1.0/build/index.html"
+  "homepage": "https://unpkg.com/@rax-materials/confirm-modal@0.1.1/build/index.html"
 }

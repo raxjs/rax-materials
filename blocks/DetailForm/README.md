@@ -2,4 +2,4 @@
 
 The block of detail information form.
 
-![screenshot](https://img.alicdn.com/imgextra/i3/O1CN01vwvJvj1YxkklUGn74_!!6000000003126-2-tps-290-414.png)
+![screenshot](https://img.alicdn.com/imgextra/i2/O1CN012AIAlP1tGnXObPGHp_!!6000000005875-2-tps-360-491.png)

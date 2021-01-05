@@ -2,4 +2,4 @@
 
 The block for user who edits the information.
 
-![screenshot](https://img.alicdn.com/imgextra/i3/O1CN01qzlEya1xCudjAcus6_!!6000000006408-2-tps-574-367.png)
+![screenshot](https://img.alicdn.com/imgextra/i1/O1CN01rSZ9aM1g3QyfypnKu_!!6000000004086-2-tps-360-174.png)

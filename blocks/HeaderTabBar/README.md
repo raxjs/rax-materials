@@ -1,3 +1,3 @@
 # Header Tab Bar
 
-![screenshot](https://img.alicdn.com/imgextra/i4/O1CN01Fm3Hml1SEyKm36614_!!6000000002216-2-tps-746-92.png)
+![screenshot](https://img.alicdn.com/imgextra/i2/O1CN01hcRUnj1XFUraqLi4e_!!6000000002894-2-tps-375-43.png)
