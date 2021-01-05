@@ -1,9 +1,10 @@
 {
   "name": "@rax-materials/confirm-modal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Confirm Modal Block",
   "files": [
-    "src/!(style.d.ts)"
+    "src/",
+    "!src/typings.d.ts"
   ],
   "scripts": {
     "start": "build-scripts start",
