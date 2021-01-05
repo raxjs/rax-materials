@@ -1,0 +1,50 @@
+.wrap {
+  background-color: #666;
+}
+
+.modal {
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  background-color: #f8f8f8;
+  align-items: center; 
+  width: 100%; 
+  height: 576rpx; 
+  border-radius: 28rpx;
+}
+
+.picture {
+  width: 100%;
+  height: 250rpx;
+}
+
+.text {
+  margin-top: 36rpx;
+  padding: 0 24rpx;
+}
+
+.confirm {
+  align-items: center;
+  justify-content: center;
+  width: 452rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: white;
+  font-size: 32rpx;
+  background: linear-gradient(to right, #ff8f00, #ff5000);
+  margin-top: 30rpx;
+}
+
+.cancel {
+  margin-top: 22rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+.closeIcon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 48rpx;
+}

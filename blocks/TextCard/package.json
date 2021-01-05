@@ -29,8 +29,8 @@
   },
   "blockConfig": {
     "name": "TextCard",
-    "title": "TextCard",
-    "category": "Information",
+    "title": "Text Card",
+    "category": "Common",
     "screenshot": "https://img.alicdn.com/tfs/TB1WI0xI1L2gK0jSZPhXXahvXXa-345-62.png"
   },
   "dependencies": {

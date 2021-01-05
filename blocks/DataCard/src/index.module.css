@@ -1,0 +1,71 @@
+.card {
+  background-color: white;
+  height: 446rpx;
+  width: 702rpx;
+  border-radius: 24rpx;
+  padding: 30rpx;
+  margin: 24rpx 24rpx 0;
+}
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrap {
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.date {
+  margin-left: 12rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.arrow {
+  width: 8rpx;
+  height: 16rpx;
+}
+
+.data {
+  flex-flow: wrap;
+}
+
+.dataItem {
+  align-items: center;
+  margin-top: 42rpx;
+  height: 126rpx;
+  width: 140rpx;
+  flex: 0 0 33%;
+}
+
+.dataItemTotal {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.dataItemTitle {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #999;
+}
+
+.dataItemDesc {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  width: 10rpx;
+  height: 20rpx;
+  margin: 0 4rpx;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@rax-materials/success-block",
+  "version": "0.1.0",
+  "description": "Success Block",
+  "files": [
+    "src/!(style.d.ts)",
+    "screenshot.png"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "screenshot": "screenshot -l -s .device-view",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "rax-picture": "^2.2.1",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@ice/screenshot": "^0.1.5",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.0",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "SuccessBlock",
+    "title": "Success Block",
+    "category": "Common",
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01uDTMdN1vyQUzMU7XA_!!6000000006241-2-tps-309-407.png"
+  },
+  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.0/build/index.html"
+}

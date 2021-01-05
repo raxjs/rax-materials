@@ -1,0 +1,10 @@
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 42rpx;
+  height: 42rpx;
+}

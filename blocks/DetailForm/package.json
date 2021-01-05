@@ -1,0 +1,40 @@
+{
+  "name": "@rax-materials/detail-form",
+  "version": "0.1.0",
+  "description": "Detail Form Block",
+  "files": [
+    "src/!(style.d.ts)",
+    "screenshot.png"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "screenshot": "screenshot -l -s .device-view",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "@alifd/meet": "^2.2.4",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@ice/screenshot": "^0.1.5",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.0",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "DetailForm",
+    "title": "Detail Form",
+    "category": "Common",
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01vwvJvj1YxkklUGn74_!!6000000003126-2-tps-290-414.png"
+  },
+  "homepage": "https://unpkg.com/detail-form@0.1.0/build/index.html"
+}

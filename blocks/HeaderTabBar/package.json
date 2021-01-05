@@ -1,0 +1,40 @@
+{
+  "name": "@rax-materials/header-tab-bar",
+  "version": "0.1.0",
+  "description": "Header Tab Bar",
+  "files": [
+    "src/!(style.d.ts)",
+    "screenshot.png"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "screenshot": "screenshot -l -s .device-view",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "rax-picture": "^2.2.1",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@ice/screenshot": "^0.1.5",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.0",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "HeaderTabBar",
+    "title": "Header Tab Bar",
+    "category": "Common",
+    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01Fm3Hml1SEyKm36614_!!6000000002216-2-tps-746-92.png"
+  },
+  "homepage": "https://unpkg.com/@rax-materials/header-tab-bar@0.1.0/build/index.html"
+}

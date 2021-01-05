@@ -10,8 +10,10 @@
     "sync": "ts-node ./scripts/upload.ts",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "eslint:fix": "npm run eslint -- --fix",
     "prettier": "prettier **/* --write",
-    "stylelint": "stylelint '**/*.{css,scss,less}'"
+    "stylelint": "stylelint '**/*.{css,scss,less}'",
+    "stylelint:fix": "npm run stylelint -- --fix"
   },
   "files": [
     "build"
