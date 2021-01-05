@@ -3,7 +3,7 @@
  */
 import { join } from 'path';
 import { spawnSync } from 'child_process';
-import checkPackagePublished from './checkPackagePublished';
+// import checkPackagePublished from './checkPackagePublished';
 import { setPublishedPackages } from './published-info';
 import { IPackageInfo, getPackageInfos } from './getPackageInfos';
 
@@ -46,15 +46,15 @@ Promise.all([getPackageInfos(join(__dirname, '../scaffolds')), getPackageInfos(j
       }
     }
     setPublishedPackages(publishedPackages);
-    // Check published packages can be finded.
-    checkPackagePublished()
-      .then(() => {
-        console.log(`[PUBLISH] Complete (count=${publishedCount}).`);
-        console.log(`${publishedPackages.join('\n')}`);
-      })
-      .catch((e) => {
-        console.error(e);
-        process.exit(1);
-      });
+    // // Check published packages can be finded.
+    // checkPackagePublished()
+    //   .then(() => {
+    //     console.log(`[PUBLISH] Complete (count=${publishedCount}).`);
+    //     console.log(`${publishedPackages.join('\n')}`);
+    //   })
+    //   .catch((e) => {
+    //     console.error(e);
+    //     process.exit(1);
+    //   });
   },
 );

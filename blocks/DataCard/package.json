@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/data-card",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Data Card Block",
   "files": [
     "src/!(style.d.ts)"
@@ -30,7 +30,7 @@
     "name": "DataCard",
     "title": "Data Card",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN016O9RjL1CQOM3WxXaj_!!6000000000075-2-tps-296-186.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i2/O1CN01xoDPkf1HnogpjuxA4_!!6000000000803-2-tps-356-218.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/data-card@0.1.0/build/index.html"
+  "homepage": "https://github.com/raxjs/rax-materials"
 }

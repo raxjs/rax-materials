@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/user-detail-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "User Detail Form Block",
   "files": [
     "src/!(style.d.ts)"
@@ -31,7 +31,7 @@
     "name": "UserDetailForm",
     "title": "User Detail Form",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01UgJ6eg1qDdxg6IQgn_!!6000000005462-2-tps-306-467.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i2/O1CN017F1lWP1u8NsSbWDUd_!!6000000005992-2-tps-375-670.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/user-detail-form@0.1.0/build/index.html"
+  "homepage": "https://github.com/raxjs/rax-materials"
 }

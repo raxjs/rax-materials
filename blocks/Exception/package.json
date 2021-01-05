@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/exception-block",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exception Block",
   "files": [
     "src/!(style.d.ts)"
@@ -30,7 +30,7 @@
     "name": "ExceptionBlock",
     "title": "Exception Block",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01NK3cb81zmkrqijiQA_!!6000000006757-2-tps-319-478.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01Y5j3T61pouZg8guPx_!!6000000005408-2-tps-376-515.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/exception-block@0.1.0/build/index.html"
+  "homepage": "https://github.com/raxjs/rax-materials"
 }

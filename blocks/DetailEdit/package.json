@@ -1,6 +1,6 @@
 {
   "name": "@rax-materials/detail-edit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detail Edit Block",
   "files": [
     "src/!(style.d.ts)"
@@ -30,7 +30,7 @@
     "name": "DetailEdit",
     "title": "Detail Edit",
     "category": "Common",
-    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01qzlEya1xCudjAcus6_!!6000000006408-2-tps-574-367.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01rSZ9aM1g3QyfypnKu_!!6000000004086-2-tps-360-174.png"
   },
-  "homepage": "https://unpkg.com/@rax-materials/detail-edit@0.1.0/build/index.html"
+  "homepage": "https://github.com/raxjs/rax-materials"
 }
