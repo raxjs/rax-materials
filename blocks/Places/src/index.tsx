@@ -1,6 +1,7 @@
 import { createElement } from 'rax';
 import View from 'rax-view';
 import Text from 'rax-text';
+import Link from 'rax-link';
 import Picture from 'rax-picture';
 import styles from './index.module.css';
 
@@ -9,6 +10,7 @@ const places = [
     picture: 'http://gw.alicdn.com/bao/uploaded/TB1rJKqIuH2gK0jSZFEXXcqMpXa.jpg',
     title: '智能手表',
     description: '全场2折起',
+    url: '//m.taobao.com',
   },
   {
     picture: 'http://gw.alicdn.com/bao/uploaded/TB1Ro.QU2b2gK0jSZK9SuuEgFXa.jpg',
@@ -54,9 +56,9 @@ const Places = () => {
         </Text>
       </View>
       <View className={styles.main}>
-        {places.map(function({ picture, title, description }) {
+        {places.map(function({ picture, title, description, url }) {
           return (
-            <View className={styles.item}>
+            <Link className={styles.item} href={url}>
               <View className={styles.pirctureBox}>
                 <Picture className={styles.pircture} source={{ uri: picture }} />
               </View>
@@ -70,7 +72,7 @@ const Places = () => {
                   {description}
                 </Text>
               </View>
-            </View>
+            </Link>
           );
         })}
       </View>

@@ -11,6 +11,7 @@
     "build": "build-scripts build"
   },
   "dependencies": {
+    "rax-link": "^1.4.3",
     "rax-picture": "^2.2.1",
     "rax-text": "^2.0.0",
     "rax-view": "^2.0.0"
