@@ -4,7 +4,7 @@
   color: #fff;
   padding: 24rpx;
   position: relative;
-  background-image: linear-gradient(90deg, rgba(214,19,141,0.00) 45%, #B6099D 100%);
+  background-image: linear-gradient(90deg, rgba(214,19,141,0.00) 45%, #b6099d 100%);
   border-radius: 24rpx 24rpx 0 0;
 }
 
@@ -12,7 +12,7 @@
   flex-direction: row;
   align-items: center;
   font-size: 38px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .title {
@@ -72,10 +72,9 @@
 }
 .description {
   font-size: 28rpx;
-  background: #FF163F;
+  background: #ff163f;
   border-radius: 19rpx;
-  font-size: 28rpx;
-  color: #FFFFFF;
+  color: #fff;
   line-height: 28rpx;
   padding: 8rpx 0;
   text-align: center;

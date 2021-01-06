@@ -15,7 +15,7 @@
 
 .evaluate {
   margin-top: 12rpx;
-  color: #CE8D19;
+  color: #ce8d19;
   font-size: 24rpx;
 }
 
@@ -78,5 +78,5 @@
 
 .value {
   color: red;
-  font-size: 30rpx
+  font-size: 30rpx;
 }

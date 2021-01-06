@@ -36,7 +36,7 @@ const places = [
     picture: 'http://gw.alicdn.com/bao/uploaded/TB1NQsCakWE3KVjSZSySutocXXa.jpg',
     title: '笔记本',
     description: '5折限量抢',
-  }
+  },
 ];
 
 const Places = () => {
@@ -56,7 +56,7 @@ const Places = () => {
         </Text>
       </View>
       <View className={styles.main}>
-        {places.map(function({ picture, title, description, url }) {
+        {places.map(({ picture, title, description, url }) => {
           return (
             <Link className={styles.item} href={url}>
               <View className={styles.pirctureBox}>
