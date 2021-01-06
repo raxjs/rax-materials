@@ -1,0 +1,81 @@
+.wrap {
+}
+
+.head {
+  flex-direction: row;
+  background-color: red;
+  color: #fff;
+  padding: 24rpx;
+  position: relative;
+  background-image: linear-gradient(90deg, rgba(214,19,141,0.00) 45%, #B6099D 100%);
+  border-radius: 24rpx 24rpx 0 0;
+}
+
+.titleBox {
+  flex-direction: row;
+  align-items: center;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+.title {
+  padding-right: 14rpx;
+  font-weight: 500;
+}
+
+.subTitle {
+  padding: 0 14rpx;
+  border-left: 1rpx solid #fff;
+}
+
+.more {
+  position: absolute;
+  right: 24rpx;
+  top: 24rpx;
+  border: 1rpx solid #fff;
+  border-radius: 18rpx;
+  padding: 0 12rpx;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+
+.main {
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 0 0 24rpx 24rpx;
+}
+
+.item {
+  width: 237rpx;
+  justify-content: center;
+  padding: 0 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.pircture {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 12rpx auto;
+}
+
+.itemTitleBox {
+  flex-direction: row;
+  justify-content: center;
+}
+.itemTitle {
+  font-size: 26rpx;
+}
+
+.descriptionBox {
+  margin-top: 8rpx;
+}
+.description {
+  font-size: 28rpx;
+  background: #FF163F;
+  border-radius: 19rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  line-height: 28rpx;
+  padding: 8rpx 0;
+  text-align: center;
+}
