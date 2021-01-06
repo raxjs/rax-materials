@@ -1,21 +1,23 @@
 # Materials
 
-Based on [Rax Components](https://rax.js.org/docs/components/about). 
+Materials for [Rax](https://rax.js.org/) Appactions based on [Rax Components](https://rax.js.org/docs/components/about). 
 
-## Install Iceworks
+## Setup
+
+### Install Iceworks
 
 ```bash
 $ npm i -g iceworks
 $ iceworks --help
 ```
 
-## Install Deps
+### Install dependencies
 
 ```bash
 $ npm install
 ```
 
-## Develop materials
+## Develop
 
 ```bash
 # block
@@ -29,19 +31,21 @@ $ npm install
 $ npm run start
 ```
 
-## Add new material
+### Add New Material
 
 ```bash
 $ iceworks add  # select block|component|scaffold
 ```
 
-## Generate materials data
+## Publish
+
+### Generate Materials Data
 
 ```bash
 $ iceworks generate
 ```
 
-## Publish materials data
+### Publish materials data
 
 ```bash
 # sync to fusion material center
