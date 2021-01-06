@@ -1,5 +1,5 @@
 {
-  "name": "goods",
+  "name": "@rax-materials/goods",
   "version": "0.1.0",
   "description": "General goods pit",
   "files": [
@@ -30,6 +30,6 @@
     "name": "Goods",
     "title": "Goods",
     "category": "Shopping",
-    "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01NUqexb1lLMYkFhchZ_!!6000000004802-2-tps-750-1018.png"
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN014MgugW23AWGdw2qMA_!!6000000007215-2-tps-684-1032.png"
   }
 }

@@ -7,9 +7,12 @@ import styles from './index.module.css';
 const Goods = () => {
   return (
     <View className={styles.wrap}>
-      <Picture className={styles.pircture} source={{ uri: 'http://gw.alicdn.com/bao/uploaded/i1/1850033064/O1CN01IXM7C11YVM9oZq8VA_!!1850033064-0-lubanu-s.jpg' }} />
+      <Picture 
+        className={styles.pircture} 
+        source={{ uri: 'https://img.alicdn.com/imgextra/i4/O1CN01uU0r8a1fl78S7NfcZ_!!6000000004046-2-tps-684-684.png' }} 
+      />
       <View className={styles.main}>
-        <Text className={styles.title} numberOfLines={1}>川岛屋青蕾日式二人食餐具碗碟套装碗盘创意网红</Text>
+        <Text className={styles.title} numberOfLines={1}>新款短袖印花雪纺裙</Text>
         <Text className={styles.evaluate}>9875个人认为颜色很正</Text>
         <View className={styles.discount}>
           <Text className={styles.discountType}>津贴</Text>

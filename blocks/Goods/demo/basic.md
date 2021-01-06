@@ -9,7 +9,7 @@ basic usage
 ```jsx
 import { createElement, render } from 'rax';
 import DriverUniversal from 'driver-universal';
-import MyComponent from 'goods';
+import MyComponent from '@rax-materials/goods';
 
 render(<MyComponent />, document.body, { driver: DriverUniversal });
 ```
