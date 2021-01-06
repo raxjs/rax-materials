@@ -1,0 +1,40 @@
+{
+  "name": "goods",
+  "version": "0.1.0",
+  "description": "General goods pit",
+  "files": [
+    "build",
+    "src",
+    "demo"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build",
+    "screenshot": "screenshot -l -s .device-view",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "rax-image": "^2.2.4",
+    "rax-picture": "^2.2.1",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.5",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "Goods",
+    "title": "Goods",
+    "category": "Shopping",
+    "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01AmBjyk1OHU2fb5SFO_!!6000000001680-2-tps-373-92.png"
+  }
+}
