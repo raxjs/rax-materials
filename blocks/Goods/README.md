@@ -1,5 +1,3 @@
 # Goods
 
-简介：Goods
-
-General Goods pit
+简介：普通的商品坑位
