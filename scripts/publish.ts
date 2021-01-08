@@ -11,9 +11,7 @@ function publish(pkg: string, version: string, directory: string): void {
   console.log('[PUBLISH]', `${pkg}@${version}`);
   spawnSync(
     'npm',
-    [
-      'install',
-    ],
+    ['install'],
     {
       stdio: 'inherit',
       cwd: directory,
@@ -21,9 +19,7 @@ function publish(pkg: string, version: string, directory: string): void {
   );
   spawnSync(
     'npm',
-    [
-      'run build',
-    ],
+    ['run build'],
     {
       stdio: 'inherit',
       cwd: directory,
