@@ -5,7 +5,7 @@
   "files": [
     "src/",
     "!src/typings.d.ts",
-    "build"
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",

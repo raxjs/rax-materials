@@ -3,9 +3,9 @@
   "version": "0.1.1",
   "description": "General goods pit",
   "files": [
-    "src",
+    "src/",
     "!src/typings.d.ts",
-    "build"
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
