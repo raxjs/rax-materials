@@ -4,7 +4,8 @@
   "description": "Confirm Modal Block",
   "files": [
     "src/",
-    "!src/typings.d.ts"
+    "!src/typings.d.ts",
+    "build"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -34,5 +35,9 @@
     "category": "Common",
     "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01KMcDey1X2fmEtMc6E_!!6000000002866-2-tps-364-460.png"
   },
-  "homepage": "https://github.com/raxjs/rax-materials"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/ConfirmModal"
+  },
+  "homepage": "https://unpkg.com/@rax-materials/confirm-modal@0.1.2/build/index.html"
 }

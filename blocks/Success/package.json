@@ -4,7 +4,8 @@
   "description": "Success Block",
   "files": [
     "src/",
-    "!src/typings.d.ts"
+    "!src/typings.d.ts",
+    "build"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -33,5 +34,9 @@
     "category": "Common",
     "screenshot": "https://img.alicdn.com/imgextra/i4/O1CN01FsbKDg1VZWxbLfLVm_!!6000000002667-2-tps-374-458.png"
   },
-  "homepage": "https://github.com/raxjs/rax-materials"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Success"
+  },
+  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.2/build/index.html"
 }
