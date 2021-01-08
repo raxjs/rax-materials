@@ -38,6 +38,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/UserDetailForm"
-  },
-  "homepage": "https://unpkg.com/@rax-materials/user-detail-form@0.1.2/build/index.html"
+  }
 }

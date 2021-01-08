@@ -37,6 +37,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/UserInfoCard"
-  },
-  "homepage": "https://unpkg.com/@rax-materials/user-info-card@0.1.2/build/index.html"
+  }
 }

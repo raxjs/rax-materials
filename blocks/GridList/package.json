@@ -37,6 +37,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/GridList"
-  },
-  "homepage": "https://unpkg.com/@rax-materials/grid-list@0.1.2/build/index.html"
+  }
 }

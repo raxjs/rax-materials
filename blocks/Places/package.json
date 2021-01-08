@@ -37,6 +37,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Places"
-  },
-  "homepage": "https://unpkg.com/@rax-materials/places@0.1.1/build/index.html"
+  }
 }

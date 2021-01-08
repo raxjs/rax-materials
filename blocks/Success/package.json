@@ -37,6 +37,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Success"
-  },
-  "homepage": "https://unpkg.com/@rax-materials/success-block@0.1.2/build/index.html"
+  }
 }
