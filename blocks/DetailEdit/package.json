@@ -1,9 +1,11 @@
 {
   "name": "@rax-materials/detail-edit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Detail Edit Block",
   "files": [
-    "src/!(style.d.ts)"
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -32,5 +34,8 @@
     "category": "Common",
     "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01rSZ9aM1g3QyfypnKu_!!6000000004086-2-tps-360-174.png"
   },
-  "homepage": "https://github.com/raxjs/rax-materials"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/DetailEdit"
+  }
 }

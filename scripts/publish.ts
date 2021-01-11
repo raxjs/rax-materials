@@ -9,7 +9,22 @@ import { IPackageInfo, getPackageInfos } from './getPackageInfos';
 
 function publish(pkg: string, version: string, directory: string): void {
   console.log('[PUBLISH]', `${pkg}@${version}`);
-
+  spawnSync(
+    'npm',
+    ['install'],
+    {
+      stdio: 'inherit',
+      cwd: directory,
+    },
+  );
+  spawnSync(
+    'npm',
+    ['run build'],
+    {
+      stdio: 'inherit',
+      cwd: directory,
+    },
+  );
   spawnSync(
     'npm',
     [

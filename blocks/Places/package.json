@@ -1,10 +1,11 @@
 {
   "name": "@rax-materials/places",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "General place list",
   "files": [
-    "src",
-    "!src/typings.d.ts"
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -32,5 +33,9 @@
     "title": "Places",
     "category": "Shopping",
     "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01qs4Sz31gkwbQXQbuz_!!6000000004181-2-tps-714-646.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Places"
   }
 }

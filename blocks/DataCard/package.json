@@ -1,9 +1,11 @@
 {
   "name": "@rax-materials/data-card",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Data Card Block",
   "files": [
-    "src/!(style.d.ts)"
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -32,5 +34,8 @@
     "category": "Common",
     "screenshot": "https://img.alicdn.com/imgextra/i2/O1CN01xoDPkf1HnogpjuxA4_!!6000000000803-2-tps-356-218.png"
   },
-  "homepage": "https://github.com/raxjs/rax-materials"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/DataCard"
+  }
 }

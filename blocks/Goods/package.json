@@ -1,10 +1,11 @@
 {
   "name": "@rax-materials/goods",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "General goods pit",
   "files": [
-    "src",
-    "!src/typings.d.ts"
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -31,5 +32,9 @@
     "title": "Goods",
     "category": "Shopping",
     "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN014MgugW23AWGdw2qMA_!!6000000007215-2-tps-684-1032.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Goods"
   }
 }

@@ -1,9 +1,11 @@
 {
   "name": "@rax-materials/user-detail-form",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "User Detail Form Block",
   "files": [
-    "src/!(style.d.ts)"
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
   ],
   "scripts": {
     "start": "build-scripts start",
@@ -33,5 +35,8 @@
     "category": "Common",
     "screenshot": "https://img.alicdn.com/imgextra/i2/O1CN017F1lWP1u8NsSbWDUd_!!6000000005992-2-tps-375-670.png"
   },
-  "homepage": "https://github.com/raxjs/rax-materials"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/UserDetailForm"
+  }
 }
