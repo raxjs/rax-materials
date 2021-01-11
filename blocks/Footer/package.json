@@ -1,0 +1,41 @@
+{
+  "name": "@rax-materials/footer",
+  "version": "0.1.2",
+  "description": "Footer Block",
+  "files": [
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build"
+  },
+  "dependencies": {
+    "rax-link": "^1.4.2",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.0",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "Footer",
+    "title": "Footer",
+    "category": "Common",
+    "screenshot": "https://img.alicdn.com/imgextra/i1/O1CN01AmBjyk1OHU2fb5SFO_!!6000000001680-2-tps-373-92.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/Footer"
+  }
+}

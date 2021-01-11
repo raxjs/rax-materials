@@ -1,0 +1,42 @@
+{
+  "name": "@rax-materials/confirm-modal",
+  "version": "0.1.2",
+  "description": "Confirm Modal Block",
+  "files": [
+    "src/",
+    "!src/typings.d.ts",
+    "build/"
+  ],
+  "scripts": {
+    "start": "build-scripts start",
+    "build": "build-scripts build"
+  },
+  "dependencies": {
+    "rax-modal": "^1.5.5",
+    "rax-picture": "^2.2.1",
+    "rax-text": "^2.0.0",
+    "rax-view": "^2.0.0"
+  },
+  "peerDependencies": {
+    "rax": "^1.1.0"
+  },
+  "devDependencies": {
+    "@alib/build-scripts": "^0.1.0",
+    "@types/rax": "^1.0.0",
+    "build-plugin-component": "^1.0.0",
+    "driver-universal": "^3.1.0",
+    "rax": "^1.1.0",
+    "rax-test-renderer": "^1.0.0",
+    "typescript": "^3.7.5"
+  },
+  "blockConfig": {
+    "name": "ConfirmModal",
+    "title": "Confirm Modal",
+    "category": "Common",
+    "screenshot": "https://img.alicdn.com/imgextra/i3/O1CN01KMcDey1X2fmEtMc6E_!!6000000002866-2-tps-364-460.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raxjs/rax-materials/tree/master/blocks/ConfirmModal"
+  }
+}

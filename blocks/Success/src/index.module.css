@@ -1,0 +1,33 @@
+.wrap {
+  padding-top: 300rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic {
+  width: 306rpx;
+  height: 168rpx;
+}
+
+.title {
+  margin-top: 40rpx;
+  font-size: 36rpx;
+}
+
+.subTitle {
+  margin-top: 16rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.backBtn {
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  margin-top: 34rpx;
+  width: 166rpx;
+  height: 54rpx;
+  border-radius: 24rpx;
+  border: 2rpx solid #999;
+  color: #666;
+}

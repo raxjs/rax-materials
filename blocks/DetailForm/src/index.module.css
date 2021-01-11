@@ -1,0 +1,15 @@
+.title {
+  height: 90rpx;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  padding-left: 36rpx;
+  background-color: #f2f2f2;
+}
+
+.submit {
+  margin-top: 30rpx;
+  margin-left: 12rpx;
+  border-radius: 40rpx;
+  height: 80rpx;
+  width: 690rpx;
+}

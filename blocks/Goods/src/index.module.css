@@ -1,0 +1,82 @@
+.main {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.pircture {
+  width: 100%;
+}
+
+.title {
+  font-weight: 500;
+  margin-top: 12rpx;
+  font-size: 26rpx;
+}
+
+.evaluate {
+  margin-top: 12rpx;
+  color: #ce8d19;
+  font-size: 24rpx;
+}
+
+.discount {
+  flex-direction: row;
+  align-items: center;
+  color: red;
+  margin-top: 12rpx;
+}
+
+.discountType {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  border: 1rpx solid red;
+  border-right-style: dotted;
+  background-color: rgb(251 237 237);
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  font-size: 18rpx;
+}
+
+.discountDesc {
+  border: 1rpx solid red;
+  background-color: rgb(251 237 237);
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  border-left: 0 none;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+  font-size: 18rpx;
+}
+
+.bottom {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18rpx;
+}
+
+.tab {
+  background-color: red;
+  color: #fff;
+  padding-left: 6rpx;
+  padding-right: 6rpx;
+  border-radius: 12rpx;
+  line-height: 30rpx;
+  height: 30rpx;
+  font-size: 14rpx;
+}
+
+.price {
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 6rpx;
+}
+
+.unit {
+  font-size: 24rpx;
+  color: red;
+}
+
+.value {
+  color: red;
+  font-size: 30rpx;
+}

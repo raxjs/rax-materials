@@ -1,0 +1,27 @@
+.tabsContainer {
+  flex-direction: row;
+  align-items: center;
+}
+
+.tab {
+  margin-left: 30rpx;
+  color: #666;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tabSelected {
+  color: #000;
+  font-size: 36rpx;
+  font-weight: 500;
+}
+
+.tabSelectedBottomLine {
+  width: 40rpx;
+  height: 6rpx;
+  background-image: linear-gradient(to right, #ff9500, #ff5000);
+  border-radius: 25%;
+  position: absolute;
+  top: 50rpx;
+}

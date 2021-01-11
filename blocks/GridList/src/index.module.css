@@ -1,0 +1,46 @@
+.card {
+  background-color: white;
+  height: 240rpx;
+  width: 702rpx;
+  border-radius: 24rpx;
+  padding: 30rpx;
+  margin: 24rpx 24rpx 0;
+}
+
+.header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.arrow {
+  width: 8rpx;
+  height: 16rpx;
+}
+
+.data {
+  flex-flow: wrap;
+}
+
+.dataItem {
+  align-items: center;
+  margin-top: 20rpx;
+  width: 140rpx;
+  flex: 0 0 25%;
+}
+
+.dataItemIcon {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.dataItemTitle {
+  margin-top: 16rpx;
+  font-size: 24rpx;
+  color: #666;
+}
