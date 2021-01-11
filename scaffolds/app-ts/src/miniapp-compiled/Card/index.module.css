@@ -1,0 +1,23 @@
+.card {
+  align-items: center;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  border-radius: 8rpx;
+  width: 100%;
+  padding: 12rpx 0;
+  background-color: #eee;
+}
+
+.title {
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 8rpx;
+  border-bottom: 1rpx solid #000;
+}
+
+.content {
+  color: rgb(48, 47, 47);
+  font-size: 28rpx;
+}
