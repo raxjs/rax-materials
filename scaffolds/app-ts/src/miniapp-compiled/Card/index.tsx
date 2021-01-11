@@ -11,4 +11,4 @@ export default function Card(props) {
       <View className={styles.content}>{content}</View>
     </View>
   );
-};
+}
