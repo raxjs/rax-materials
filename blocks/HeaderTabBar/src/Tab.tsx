@@ -1,5 +1,5 @@
 import { createElement } from 'rax';
-import View from 'rax-View';
+import View from 'rax-view';
 import * as classnames from 'classnames';
 import styles from './Tab.module.css';
 
