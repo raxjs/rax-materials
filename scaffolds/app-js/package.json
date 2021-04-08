@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-js",
   "author": "rax",
   "description": "Rax 无线跨端应用工程，使用 JavaScript。",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "scripts": {
     "start": "rax-app start",
     "build": "rax-app build",

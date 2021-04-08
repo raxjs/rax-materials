@@ -1,3 +1,5 @@
-import { runApp } from 'rax-app';
+// MPA 模式下该文件无效
+import { runApp, IAppConfig } from 'rax-app';
 
-runApp();
+const appConfig: IAppConfig = {};
+runApp(appConfig);
