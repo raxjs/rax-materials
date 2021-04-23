@@ -1,254 +1,389 @@
 [
   {
-    "name": "Text",
-    "title": "Text",
-    "description": "Text 用于显示文本，在 Web 容器中是使用 span 标签实现的，而不是 p 标签。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-text",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-text",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "ActionSheet",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "动作面板",
+    "importStatement": "import { ActionSheet } from '@alifd/meet';"
   },
   {
-    "name": "View",
-    "title": "View",
-    "description": "View 是最基础的组件，默认为 Flexbox 布局，并且可以任意嵌套。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-view",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-view",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Avatar",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "头像",
+    "importStatement": "import { Avatar } from '@alifd/meet';"
   },
   {
-    "name": "TextInput",
-    "title": "TextInput",
-    "description": "TextInput 是唤起用户键盘的基础组件。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-textinput",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-textinput",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Badge",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "徽章",
+    "importStatement": "import { Badge } from '@alifd/meet';"
   },
   {
-    "name": "Link",
-    "title": "Link",
-    "description": "Link 是基础的链接组件，在 Web 容器中通过 a 标签实现，它带有默认样式 textDecoration: 'none'。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-link",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-link",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "BreadCrumb",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "面包屑导航",
+    "importStatement": "import { BreadCrumb } from '@alifd/meet';"
+  },
+  {
+    "name": "Button",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "按钮",
+    "importStatement": "import { Button } from '@alifd/meet';"
+  },
+  {
+    "name": "Calendar",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "日历",
+    "importStatement": "import { Calendar } from '@alifd/meet';"
+  },
+  {
+    "name": "CascaderSelect",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "级联选择",
+    "importStatement": "import { CascaderSelect } from '@alifd/meet';"
+  },
+  {
+    "name": "Checkbox",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "复选框",
+    "importStatement": "import { Checkbox } from '@alifd/meet';"
+  },
+  {
+    "name": "ConfigProvider",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "配置",
+    "importStatement": "import { ConfigProvider } from '@alifd/meet';"
+  },
+  {
+    "name": "DatePicker",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "日期选择",
+    "importStatement": "import { DatePicker } from '@alifd/meet';"
+  },
+  {
+    "name": "Dialog",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "对话框",
+    "importStatement": "import { Dialog } from '@alifd/meet';"
+  },
+  {
+    "name": "Divider",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "分割线",
+    "importStatement": "import { Divider } from '@alifd/meet';"
+  },
+  {
+    "name": "Drawer",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "抽屉",
+    "importStatement": "import { Drawer } from '@alifd/meet';"
+  },
+  {
+    "name": "Field",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "表单域",
+    "importStatement": "import { Field } from '@alifd/meet';"
+  },
+  {
+    "name": "Form",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "表单",
+    "importStatement": "import { Form } from '@alifd/meet';"
   },
   {
     "name": "Icon",
-    "title": "Icon",
-    "description": "图标组件，Icon 组件实现了 W3C 标准的 IconFont 接口。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-icon",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-icon",
-      "registry": "https://registry.npmjs.org"
-    }
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "图标",
+    "importStatement": "import { Icon } from '@alifd/meet';"
   },
   {
-    "name": "Image",
-    "title": "Image",
-    "description": "图片展示组件，类似于 HTML image 标签，但提供了更丰富的功能，使用时需指定样式宽高值。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-image",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-image",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Input",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "文本输入框",
+    "importStatement": "import { Input } from '@alifd/meet';"
   },
   {
-    "name": "Picture",
-    "title": "Picture",
-    "description": "复杂的图片组件，在 Weex 容器中，Picture 和 Image 组件只有 forceUpdate 属性不同。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-picture",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-picture",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "List",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "列表",
+    "importStatement": "import { List } from '@alifd/meet';"
   },
   {
-    "name": "Video",
-    "title": "Video",
-    "description": "视频播放组件。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-video",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础组件"],
-    "category": "基础组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-video",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Menu",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "菜单",
+    "importStatement": "import { Menu } from '@alifd/meet';"
   },
   {
-    "name": "ScrollView",
-    "title": "ScrollView",
-    "description": "ScrollView 是一个滚动容器，可用于列表的展示。一般情况下需要为 ScrollView 设置确定的高度来保证其正常展现。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-scrollview",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础容器"],
-    "category": "基础容器",
-    "source": {
-      "type": "npm",
-      "npm": "rax-scrollview",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "RecyclerView",
-    "title": "RecyclerView",
-    "description": "动态 View 的滚动组件，用于大量数据列表场景。在 Weex 下是对 list 与 cell 的包装，它通过内部子组件复用提升了滚动列表的性能。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-recyclerview",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础容器"],
-    "category": "基础容器",
-    "source": {
-      "type": "npm",
-      "npm": "rax-recyclerview",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "Waterfall",
-    "title": "Waterfall",
-    "description": "用于实现瀑布流的列表容器，瀑布流中的每一项需要指定高度用于计算布局。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-waterfall",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["基础容器"],
-    "category": "基础容器",
-    "source": {
-      "type": "npm",
-      "npm": "rax-waterfall",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "Embed",
-    "title": "Embed",
-    "description": "内嵌内容容器，在 Weex 容器中通过 <web> 实现，在 Web 容器中通过 <iframe> <embed> 实现。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-embed",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-embed",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "Countdown",
-    "title": "Countdown",
-    "description": "倒计时组件，可设置倒计时毫秒数，以及展现的模板。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-countdown",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-countdown",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "Canvas",
-    "title": "Canvas",
-    "description": "在 Web 和 Weex 中可以通过 ref 获取画布实例，在小程序中需要通过 createCanvasContext 和画布的 id 获取 canvas 上下文。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-canvas",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-canvas",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "Slider",
-    "title": "Slider",
-    "description": "轮播组件，通过幻灯片的方式，在页面中横向展示内容组件。 轮播内容相互独立，前后在内容以及数据上都不存在逻辑关系。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-slider",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-slider",
-      "registry": "https://registry.npmjs.org"
-    }
-  },
-  {
-    "name": "XSlider",
-    "title": "XSlider",
-    "description": "轮播增强，仅支持 Web 和 Weex。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-xslider",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-xslider",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Message",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "信息反馈",
+    "importStatement": "import { Message } from '@alifd/meet';"
   },
   {
     "name": "Modal",
-    "title": "Modal",
-    "description": "Modal 提供了弹出遮罩层的能力，为 Alert, Confirm 等对话框组件提供了底层能力。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-modal",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-modal",
-      "registry": "https://registry.npmjs.org"
-    }
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "模态框",
+    "importStatement": "import { Modal } from '@alifd/meet';"
   },
   {
-    "name": "QRCode",
-    "title": "QRCode",
-    "description": "用于生成二维码的 Rax 组件。",
-    "homepage": "https://github.com/raxjs/rax-components/tree/master/packages/rax-qrcode",
-    "repository": "https://github.com/raxjs/rax-components",
-    "categories": ["功能组件"],
-    "category": "功能组件",
-    "source": {
-      "type": "npm",
-      "npm": "rax-qrcode",
-      "registry": "https://registry.npmjs.org"
-    }
+    "name": "Nav",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "导航",
+    "importStatement": "import { Nav } from '@alifd/meet';"
+  },
+  {
+    "name": "NumberPicker",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "数字输入框",
+    "importStatement": "import { NumberPicker } from '@alifd/meet';"
+  },
+  {
+    "name": "Pagination",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "分页",
+    "importStatement": "import { Pagination } from '@alifd/meet';"
+  },
+  {
+    "name": "Picker",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "选择框",
+    "importStatement": "import { Picker } from '@alifd/meet';"
+  },
+  {
+    "name": "Progress",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "进度条",
+    "importStatement": "import { Progress } from '@alifd/meet';"
+  },
+  {
+    "name": "Radio",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "单选框",
+    "importStatement": "import { Radio } from '@alifd/meet';"
+  },
+  {
+    "name": "Range",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "区域选择",
+    "importStatement": "import { Range } from '@alifd/meet';"
+  },
+  {
+    "name": "Rating",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "评分",
+    "importStatement": "import { Rating } from '@alifd/meet';"
+  },
+  {
+    "name": "RichText",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "富文本",
+    "importStatement": "import { RichText } from '@alifd/meet';"
+  },
+  {
+    "name": "Search",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "搜索",
+    "importStatement": "import { Search } from '@alifd/meet';"
+  },
+  {
+    "name": "SelectDrawer",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "选择抽屉",
+    "importStatement": "import { SelectDrawer } from '@alifd/meet';"
+  },
+  {
+    "name": "Select",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "下拉选择框",
+    "importStatement": "import { Select } from '@alifd/meet';"
+  },
+  {
+    "name": "SlideView",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "滑动删除容器",
+    "importStatement": "import { SlideView } from '@alifd/meet';"
+  },
+  {
+    "name": "Slider",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "图片轮播",
+    "importStatement": "import { Slider } from '@alifd/meet';"
+  },
+  {
+    "name": "Step",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "步骤",
+    "importStatement": "import { Step } from '@alifd/meet';"
+  },
+  {
+    "name": "Switch",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "开关",
+    "importStatement": "import { Switch } from '@alifd/meet';"
+  },
+  {
+    "name": "Tab",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "标签页",
+    "importStatement": "import { Tab } from '@alifd/meet';"
+  },
+  {
+    "name": "Tag",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "标签",
+    "importStatement": "import { Tag } from '@alifd/meet';"
+  },
+  {
+    "name": "TimePicker",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "时间选择",
+    "importStatement": "import { TimePicker } from '@alifd/meet';"
+  },
+  {
+    "name": "Transfer",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "穿梭框",
+    "importStatement": "import { Transfer } from '@alifd/meet';"
+  },
+  {
+    "name": "Typography",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "排版",
+    "importStatement": "import { Typography } from '@alifd/meet';"
+  },
+  {
+    "name": "Upload",
+    "category": "Components",
+    "categories": [
+      "Components"
+    ],
+    "title": "上传",
+    "importStatement": "import { Upload } from '@alifd/meet';"
   }
 ]
