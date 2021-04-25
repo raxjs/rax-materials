@@ -5,6 +5,9 @@ import Text from 'rax-text';
 import styles from './index.module.css';
 
 import Logo from '@/components/Logo';
+<%_ if (targets.includes('miniapp') || targets.includes('wechat-miniprogram')) { -%>
+import Card from '../../miniapp-compiled/Card/index';
+<%_ } %>
 
 export default function Home() {
   return (
@@ -13,6 +16,9 @@ export default function Home() {
       <Text className={styles.homeTitle}>Welcome to Your Rax App</Text>
       <Text className={styles.homeInfo}>More information about Rax</Text>
       <Text className={styles.homeInfo}>Visit https://rax.js.org</Text>
+      <%_ if (targets.includes('miniapp') || targets.includes('wechat-miniprogram')) { -%>
+      <Card title="这是一个 Rax 小程序编译时组件" content="详情查看 https://rax.js.org/docs/guide/dual-engine-mix" />
+      <%_ } %>
     </View>
   );
 }
