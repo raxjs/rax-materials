@@ -7,8 +7,5 @@
   ],
   "window": {
     "title": "Rax App"
-  },
-  "builtInLibrary": {
-    "lib-mtop": false
   }
 }
