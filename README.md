@@ -37,7 +37,9 @@ $ npm install
 $ npm run start
 ```
 
-PS: If you want to preview scaffold project, Please see [config.ts](./scripts/ejsRender/config/ts) first!
+PS: 
+* If you want to preview scaffold project, Please see [config.ts](./scripts/ejsRender/config/ts) first!
+* Don't run npm install in scaffolds dir, it will slow down the process speed!
 
 ### Add New Material
 
