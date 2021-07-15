@@ -29,7 +29,15 @@ $ npm run start
 $ cd blocks/ExampleBlock
 $ npm install
 $ npm run start
+
+# scaffolds (Please see ./scripts/ejsRender/config.ts first!)
+$ npm run scaffolds:watch
+$ cd scaffoldsTemps/ExampleScaffold
+$ npm install
+$ npm run start
 ```
+
+PS: If you want to preview scaffold project, Please see [config.ts](./scripts/ejsRender/config/ts) first!
 
 ### Add New Material
 
