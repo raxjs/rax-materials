@@ -32,5 +32,11 @@ export default function (directory: string) {
       },
     );
     fs.copySync(path.join(targetDir, BUILD_DIR), path.join(directory, BUILD_DIR));
+
+    // Use web result as scaffold home page
+    const webResult = path.join(directory, BUILD_DIR, 'web');
+    if (fs.existsSync(webResult)) {
+      fs.copySync(webResult, path.join(directory, BUILD_DIR));
+    }
   }
 }
