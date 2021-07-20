@@ -35,8 +35,8 @@ export default function (directory: string) {
       if (!appJson.scripts) {
         appJson.scripts = [];
       }
-      const { name, version } = fs.readJsonSync(path.join(targetDir, 'package.json'));
-      appJson.scripts.push(`<script>window.PREVIEW_URLS = [${scaffoldConfig.preview.map((item) => `{ name: '${item.name}', message: '${item.message}', url: 'https://unpkg.com/${name}/@${version}/build/${item.output}' },`)}];</script>`);
+      const { name, version } = fs.readJsonSync(path.join(scaffoldConfig.target, 'package.json'));
+      appJson.scripts.push(`<script>window.PREVIEW_URLS = [${scaffoldConfig.preview.map((item) => `{ name: '${item.name}', message: '${item.message}', url: 'https://unpkg.com/${name}@${version}/build/${item.output}' },`)}];</script>`);
       appJson.scripts.push('<script src="https://dev.g.alicdn.com/appworks/rax-scaffolds-preview-fab/0.0.1/index.js"></script>');
 
       // Update build.json
