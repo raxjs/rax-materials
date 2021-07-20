@@ -29,7 +29,17 @@ $ npm run start
 $ cd blocks/ExampleBlock
 $ npm install
 $ npm run start
+
+# scaffolds (Please see ejsRender.config.ts first!)
+$ npm run scaffolds:watch
+$ cd scaffoldsTemps/ExampleScaffold
+$ npm install
+$ npm run start
 ```
+
+PS: 
+* If you want to preview scaffold project, Please see [ejsRender.config.ts](./ejsRender.config.ts) first!
+* Don't run npm install in scaffolds dir, it will slow down the process speed!
 
 ### Add New Material
 

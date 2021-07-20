@@ -6,25 +6,31 @@ import { spawnSync } from 'child_process';
 // import checkPackagePublished from './checkPackagePublished';
 import { setPublishedPackages } from './published-info';
 import { IPackageInfo, getPackageInfos } from './getPackageInfos';
+import prePublish from './ejsRender/prePublish';
 
 function publish(pkg: string, version: string, directory: string): void {
   console.log('[PUBLISH]', `${pkg}@${version}`);
-  spawnSync(
-    'npm',
-    ['install'],
-    {
-      stdio: 'inherit',
-      cwd: directory,
-    },
-  );
-  spawnSync(
-    'npm',
-    ['run build'],
-    {
-      stdio: 'inherit',
-      cwd: directory,
-    },
-  );
+
+  if (directory.indexOf('/scaffolds/') > -1) {
+    prePublish(directory);
+  } else {
+    spawnSync(
+      'npm',
+      ['install'],
+      {
+        stdio: 'inherit',
+        cwd: directory,
+      },
+    );
+    spawnSync(
+      'npm',
+      ['run', 'build'],
+      {
+        stdio: 'inherit',
+        cwd: directory,
+      },
+    );
+  }
   spawnSync(
     'npm',
     [

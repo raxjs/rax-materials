@@ -33,6 +33,10 @@
     "typescript": "^3.7.5"
   },
   "scaffoldConfig": {
+    "supportAppType": [
+      "web-mpa",
+      "web-spa"
+    ],
     "title": "Rax App - Midway FaaS",
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png",

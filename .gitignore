@@ -22,3 +22,6 @@ screenshot.png
 code.zip
 .history
 .rax
+
+# ejs render result temp dir
+scaffoldsTemps
