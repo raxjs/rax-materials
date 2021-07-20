@@ -1,16 +1,14 @@
 /* eslint-disable no-await-in-loop */
 // render scaffolds ejs templates to temp dir
 import generate from './generate';
-import config from './config';
+import { IConfig } from './interface';
+import * as config from '../../ejsRender.config';
 
 async function build() {
-  const { targets } = config;
+  const { scaffolds } = config as IConfig;
 
-  const keys = Object.keys(targets);
-
-  for (let i = 0; i < keys.length; i++) {
-    const key = keys[i];
-    await generate(key);
+  for (let i = 0; i < scaffolds.length; i++) {
+    await generate(scaffolds[i]);
   }
 }
 

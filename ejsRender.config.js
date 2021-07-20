@@ -1,6 +1,6 @@
-import * as path from 'path';
+const path = require('path');
 
-const ROOT = path.join(__dirname, '../../');
+const ROOT = path.join(__dirname, './');
 
 const ejsData = {
   targets: ['web'],
@@ -16,18 +16,19 @@ const previewData = [
 
 // Add preview to ejs scaffolds template.
 // Build or dev scaffolds project you should see blew config first.
-export default {
+module.exports = {
   tmpDir: path.join(ROOT, 'scaffoldsTemps'),
-  targets: {
-    // For example config 'app-js-base': { target: path.join(__dirname, 'scaffolds/app-js/'), data: {targets: ['web']} }
+  scaffolds: [
+    // For example: { name: 'app-js-base', target: path.join(ROOT, 'scaffolds/app-js/'), data: {targets: ['web']} }
     // Will pass EJS target('scaffolds/app-js') template and the config data got 'scaffoldsTempDir/app-js-base' result
-    'app-js': {
+    {
       target: path.join(ROOT, 'scaffolds/app-js/'), // target template path
+      name: 'app-js', // temp dir name
       data: ejsData, // ejs render data
       preview: previewData, // preview url for qrcode
     },
-    'app-ts': { target: path.join(ROOT, 'scaffolds/app-ts/'), data: ejsData, preview: previewData },
-    'app-midway-faas': { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), data: ejsData, preview: previewData },
-    'app-midway-ssr': { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), data: ejsData, preview: previewData },
-  },
+    { target: path.join(ROOT, 'scaffolds/app-ts/'), name: 'app-ts', data: ejsData, preview: previewData },
+    { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-faas', data: ejsData, preview: previewData },
+    { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-ssr', data: ejsData, preview: previewData },
+  ],
 };

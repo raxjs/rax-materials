@@ -3,22 +3,20 @@ import * as fs from 'fs-extra';
 import * as path from 'path';
 import * as chokidar from 'chokidar';
 import generate from './generate';
-import config from './config';
+import { IConfig } from './interface';
+import * as config from '../../ejsRender.config';
 
 chokidar.watch(path.join(__dirname, '../../scaffolds/'), { ignoreInitial: true }).on('all', (event, file) => {
-  const { targets, tmpDir } = config;
-  const keys = Object.keys(targets);
+  const { scaffolds, tmpDir } = config as IConfig;
 
-  const index = keys.map((key) => targets[key].target).findIndex((target) => file.indexOf(target) === 0);
-  if (index !== -1) {
-    const key = keys[index];
-    const target = targets[key];
+  const scaffoldConfig = scaffolds.find((scaffold) => file.indexOf(scaffold.target) === 0);
 
+  if (scaffoldConfig !== undefined) {
     if (file.endsWith('.ejs')) {
-      generate(key);
+      generate(scaffoldConfig);
     } else {
       // do copy
-      fs.copySync(file, path.join(tmpDir, key, file.replace(target.target, '')));
+      fs.copySync(file, path.join(tmpDir, scaffoldConfig.name, file.replace(scaffoldConfig.target, '')));
     }
   }
 });

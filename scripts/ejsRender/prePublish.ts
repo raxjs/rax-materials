@@ -2,19 +2,17 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import { spawnSync } from 'child_process';
-import config from './config';
+import { IConfig } from './interface';
+import * as config from '../../ejsRender.config';
 
 const BUILD_DIR = 'build';
 
 export default function (directory: string) {
-  const { targets, tmpDir } = config;
-  const keys = Object.keys(targets);
+  const { scaffolds, tmpDir } = config as IConfig;
 
-  const index = keys.map((key) => targets[key].target).findIndex((target) => path.join(directory, './').indexOf(target) === 0);
-  if (index !== -1) {
-    const key = keys[index];
-    const target = targets[key];
-    const targetDir = path.join(tmpDir, key);
+  const scaffoldConfig = scaffolds.find((scaffold) => path.join(directory, './').indexOf(scaffold.target) === 0);
+  if (scaffoldConfig !== undefined) {
+    const targetDir = path.join(tmpDir, scaffoldConfig.name);
 
     spawnSync(
       'npm',
@@ -38,7 +36,7 @@ export default function (directory: string) {
         appJson.scripts = [];
       }
       const { name, version } = fs.readJsonSync(path.join(targetDir, 'package.json'));
-      appJson.scripts.push(`<script>window.PREVIEW_URLS = [${target.preview.map((item) => `{ name: '${item.name}', message: '${item.message}', url: 'https://unpkg.com/${name}/@${version}/build/${item.output}' },`)}];</script>`);
+      appJson.scripts.push(`<script>window.PREVIEW_URLS = [${scaffoldConfig.preview.map((item) => `{ name: '${item.name}', message: '${item.message}', url: 'https://unpkg.com/${name}/@${version}/build/${item.output}' },`)}];</script>`);
       appJson.scripts.push('<script src="https://dev.g.alicdn.com/appworks/rax-scaffolds-preview-fab/0.0.1/index.js"></script>');
 
       // Update build.json
