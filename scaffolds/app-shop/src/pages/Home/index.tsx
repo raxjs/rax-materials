@@ -1,5 +1,6 @@
 import { createElement } from 'rax';
 import View from 'rax-view';
+import RecyclerView from 'rax-recyclerview';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Nav from './components/Nav';
@@ -11,9 +12,11 @@ export default function Home() {
   return (
     <View className={styles.container}>
       <Header />
-      <Banner />
-      <Nav />
-      <ItemList />
+      <RecyclerView >
+        <Banner />
+        <Nav />
+        <ItemList />
+      </RecyclerView>
     </View>
   );
 }
