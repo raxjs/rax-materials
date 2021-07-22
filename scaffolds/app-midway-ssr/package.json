@@ -39,6 +39,10 @@
     }
   },
   "scaffoldConfig": {
+    "supportAppType": [
+      "web-mpa",
+      "web-spa"
+    ],
     "title": "Rax App - SSR with Midway FaaS",
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png",
