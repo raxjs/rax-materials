@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-ts",
   "author": "rax",
   "description": "Rax 无线跨端应用工程，使用 TypeScript。",
-  "version": "0.4.4",
+  "version": "0.4.6",
   "scripts": {
     "start": "rax-app start",
     "build": "rax-app build",
@@ -12,6 +12,13 @@
     "lint": "npm run eslint && npm run stylelint"
   },
   "scaffoldConfig": {
+    "supportAppType": [
+      "web-mpa",
+      "web-spa",
+      "miniapp",
+      "kraken-mpa",
+      "weex-mpa"
+    ],
     "title": "Rax App - TS",
     "category": "Basic",
     "screenshot": "https://img.alicdn.com/tfs/TB1TLoBnZKfxu4jSZPfXXb3dXXa-592-1280.png",
