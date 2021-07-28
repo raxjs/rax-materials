@@ -1,28 +1,34 @@
-import { createElement, useEffect, useState } from 'rax';
+import { createElement, useEffect, forwardRef, useImperativeHandle, useState } from 'rax';
 import View from 'rax-view';
 import { getInfoSync } from '@uni/system-info';
 import { getBoundingClientRect } from '@uni/element';
+import type { ScrollEvent } from 'rax-scrollview';
 import styles from './Scrollbar.module.css';
 
 interface IProps {
   target: string;
-  translateX: number;
+}
+export interface IRefObject {
+  handleTargetScroll: (e: ScrollEvent) => void;
 }
 
-function Scrollbar(props: IProps) {
-  const [width, setWidth] = useState(0);
+function Scrollbar(props, ref) {
+  const { target } = props;
 
-  const { target, translateX } = props;
+  const [dragWidth, setDragWidth] = useState(0);
+  const [dragTX, setDragTX] = useState(0);
 
-  function init() {
-    const { screenWidth } = getInfoSync();
-    getBoundingClientRect(target).then((ret) => {
-      setWidth(screenWidth / ret[0].width);
-    });
-  }
+  useImperativeHandle(ref, () => ({
+    handleTargetScroll: (e) => {
+      setDragTX(e.nativeEvent.contentOffset?.x / e.nativeEvent.contentSize?.width * 100);
+    },
+  }));
 
   useEffect(() => {
-    init();
+    const { screenWidth } = getInfoSync();
+    getBoundingClientRect(target).then((ret) => {
+      setDragWidth(screenWidth / ret[0].width);
+    });
   }, []);
 
   return (
@@ -31,8 +37,8 @@ function Scrollbar(props: IProps) {
         <View
           className={styles.drag}
           style={{
-            width: `${Math.round(width * 100)}%`,
-            transform: `translateX(${translateX}rpx)`,
+            width: `${Math.round(dragWidth * 100)}%`,
+            transform: `translateX(${dragTX}rpx)`,
           }}
         />
       </View>
@@ -40,4 +46,4 @@ function Scrollbar(props: IProps) {
   );
 }
 
-export default Scrollbar;
+export default forwardRef<IRefObject, IProps>(Scrollbar);
