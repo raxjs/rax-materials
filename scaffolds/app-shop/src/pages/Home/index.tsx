@@ -3,7 +3,7 @@ import View from 'rax-view';
 import RecyclerView from 'rax-recyclerview';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Nav from './components/Nav';
+import NavList from './components/NavList';
 import ItemList from './components/ItemList';
 
 import styles from './index.module.css';
@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <RecyclerView >
         <Banner />
-        <Nav />
+        <NavList />
         <ItemList />
       </RecyclerView>
     </View>

@@ -3,6 +3,8 @@ import View from 'rax-view';
 import Image from 'rax-image';
 import Slider from 'rax-slider';
 
+import styles from './index.module.css';
+
 const list = [
   'https://gw.alicdn.com/imgextra/i4/O1CN01K5H7u71wbMCn9Mgjh_!!6000000006326-2-tps-1125-352.png',
   'https://gw.alicdn.com/imgextra/i4/O1CN01nqP1AP1OBWw0zQ2qn_!!6000000001667-2-tps-1125-352.png',
@@ -31,7 +33,7 @@ function Banner() {
     >
       {list.map((item) => (
         <View key={item} className="itemWrap">
-          <Image className="image" source={{ uri: item }} />
+          <Image className={styles.image} source={{ uri: item }} />
         </View>))}
     </Slider>
   );

@@ -1,0 +1,11 @@
+.navList {
+  margin-top: -5rpx;
+  background-color: #fff;
+  width: 750rpx; 
+}
+
+.list {
+  overflow-x: auto;
+  flex-direction: row;
+  padding-right: 23rpx;
+}

@@ -1,0 +1,20 @@
+.container {
+  text-align: center;
+  padding: 16rpx;
+}
+
+.scrollbar {
+  position: relative;
+  margin: 0 auto;
+  width: 100rpx;
+  height: 6rpx;
+  border-radius: 6rpx;
+  background-color: #d4d8de;
+  overflow: hidden;
+}
+
+.drag {
+  position: relative;
+  background-color: #ff6d2a;
+  height: 6rpx;
+}

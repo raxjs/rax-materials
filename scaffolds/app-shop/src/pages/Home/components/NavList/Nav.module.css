@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 134rpx;
+  width: 122rpx;
+  margin-top: 6rpx;
+  margin-left: 23rpx;
+}
+
+.image {
+  width: 122rpx;
+  height: 96rpx;
+}
+
+.text {
+  text-align: center;
+  margin-top: 8rpx;
+  line-height: 30rpx;
+  font-size: 22rpx;
+  color: #666;
+}
