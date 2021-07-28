@@ -4,6 +4,9 @@ import ScrollView from 'rax-scrollview';
 import Nav from './Nav';
 import Scrollbar, { IRefObject } from './Scrollbar';
 
+// mock data
+import data from './data.json';
+
 import styles from './index.module.css';
 
 function NavList() {
@@ -22,42 +25,18 @@ function NavList() {
         onScroll={handleScroll}
       >
         <View className={styles.list} id="navList">
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品1" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品2" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品3" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品4" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品5" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品6" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品7" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品8" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品9" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品10" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品11" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品12" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品13" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品14" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品15" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品16" />
-          </View>
-          <View>
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品17" />
-            <Nav image="https://gw.alicdn.com/tfs/TB1OIxTcLc3T1VjSZLeXXbZsVXa-183-144.png" text="天马新品18" />
-          </View>
+          {data.map((item, index) => {
+            if (index % 2 === 0) {
+              const nextItem = data[index + 1];
+              return (
+                <View key={`item${item.text}`}>
+                  <Nav image={item.icon} text={item.text} />
+                  <Nav image={nextItem.icon} text={nextItem.text} />
+                </View>
+              );
+            }
+            return null;
+          })}
         </View>
       </ScrollView>
       <Scrollbar ref={scrollbarRef} target="#navList" />
