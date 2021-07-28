@@ -1,0 +1,15 @@
+.container {
+  padding: 0 15rpx;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 24rpx 0;
+  width: 322rpx;
+  height: 38rpx;
+}
+
+.list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

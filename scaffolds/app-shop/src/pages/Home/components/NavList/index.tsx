@@ -31,7 +31,9 @@ function NavList() {
               return (
                 <View key={`item${item.text}`}>
                   <Nav image={item.icon} text={item.text} />
-                  <Nav image={nextItem.icon} text={nextItem.text} />
+                  <View style={{ marginTop: '24rpx' }}>
+                    <Nav image={nextItem.icon} text={nextItem.text} />
+                  </View>
                 </View>
               );
             }

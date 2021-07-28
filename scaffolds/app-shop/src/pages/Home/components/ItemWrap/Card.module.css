@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.title {
+  margin-top: 20rpx;
+  height: 40rpx;
+}
+
+.items {
+  flex-direction: row;
+}
+
+.item {
+  margin: 20rpx 0 0 34rpx;
+}
+
+.tag {
+  font-size: 26rpx;
+  line-height: 32rpx;
+  font-weight: 700;
+}
+
+.image {
+  width: 124rpx;
+  height: 124rpx;
+}
