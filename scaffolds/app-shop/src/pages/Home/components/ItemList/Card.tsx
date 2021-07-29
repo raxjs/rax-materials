@@ -5,16 +5,22 @@ import Image from 'rax-image';
 
 import styles from './Card.module.css';
 
-function Card() {
+interface IProps {
+  image: string;
+  name: string;
+  price: string;
+  extra: string;
+}
+
+function Card(props: IProps) {
+  const { image, name, price, extra } = props;
   return (
     <View className={styles.container}>
-      <Image className={styles.image} source={{ uri: 'https://gw.alicdn.com/bao/uploaded/i1/683495160/O1CN013Xsm0l1nzKJZiST6h_!!683495160-0-lubanu-s.jpg_320x320q90.jpg_.webp' }} />
-      <Text className={styles.name}>
-        TransArt 变形玩具金刚 滑板猩猩 队长 TA 猛兽侠BW系列野兽战争
-      </Text>
+      <Image className={styles.image} source={{ uri: image }} />
+      <Text className={styles.name}>{name}</Text>
       <View className={styles.info}>
-        <Text className={styles.price}>￥ 20</Text>
-        <Text className={styles.extra}>21人已购买</Text>
+        <Text className={styles.price}>￥ {price}</Text>
+        <Text className={styles.extra}>{extra}</Text>
       </View>
     </View>
   );
