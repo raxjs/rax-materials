@@ -3,7 +3,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, './');
 
 const ejsData = {
-  appType: 'web-mpa',
+  appType: 'miniapp',
   targets: ['web'],
   miniappType: 'runtime',
   mpa: false,
