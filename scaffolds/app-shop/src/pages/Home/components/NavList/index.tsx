@@ -2,6 +2,7 @@ import { createElement, useRef } from 'rax';
 import View from 'rax-view';
 import ScrollView from 'rax-scrollview';
 import throttle from 'lodash.throttle';
+import { isWeChatMiniProgram } from '@uni/env';
 import Nav from './Nav';
 import Scrollbar, { IRefObject } from './Scrollbar';
 
@@ -19,7 +20,7 @@ function NavList() {
         horizontal
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
-        onScroll={throttle((e) => { scrollbarRef.current?.handleTargetScroll(e); }, 160)}
+        onScroll={throttle((e) => { scrollbarRef.current?.handleTargetScroll(e); }, isWeChatMiniProgram ? 160 : 0)}
       >
         <View className={styles.list} id="navList">
           {data.map((item, index) => {
