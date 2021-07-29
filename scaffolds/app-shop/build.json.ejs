@@ -1,0 +1,14 @@
+{<%_ if ( appType === 'miniapp' ) { -%>
+  "targets": [
+    "web",
+    "miniapp",
+    "wechat-miniprogram"
+  ]
+<%_ } else { %>
+  "targets": [
+    "web"
+  ],
+  "web": {
+    "mpa": true
+  }
+<%_ } %>}

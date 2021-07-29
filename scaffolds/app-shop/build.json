@@ -1,7 +1,0 @@
-{
-  "targets": [
-    "web",
-    "miniapp",
-    "wechat-miniprogram"
-  ]
-}

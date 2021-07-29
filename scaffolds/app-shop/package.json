@@ -1,7 +1,7 @@
 {
   "name": "@rax-materials/scaffolds-app-ts",
   "author": "rax",
-  "description": "Rax 无线跨端应用工程，使用 TypeScript。",
+  "description": "Rax 无线跨端商城应用工程，使用 TypeScript。",
   "version": "0.1.0",
   "scripts": {
     "start": "rax-app start",
@@ -10,6 +10,19 @@
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "prettier": "prettier **/* --write",
     "lint": "npm run eslint && npm run stylelint"
+  },
+  "scaffoldConfig": {
+    "supportAppType": [
+      "web-mpa",
+      "miniapp"
+    ],
+    "title": "Rax App Pro - Shop",
+    "category": "Industry",
+    "screenshot": "https://img.alicdn.com/imgextra/i2/O1CN01LtylNw1gobofXxEdL_!!6000000004189-2-tps-558-998.png",
+    "name": "Rax App Pro - Shop"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@uni/element": "^1.0.6",
@@ -31,7 +44,5 @@
     "eslint": "^6.8.0",
     "prettier": "^2.1.2",
     "stylelint": "^13.7.2"
-  },
-  "private": true,
-  "originTemplate": "@rax-materials/scaffolds-app-ts"
+  }
 }
