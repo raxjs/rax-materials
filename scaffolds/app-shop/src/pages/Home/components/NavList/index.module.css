@@ -2,9 +2,15 @@
   margin-top: -5rpx;
   background-color: #fff;
   width: 750rpx;
+  max-height: 360rpx;
+}
+
+.wrap {
+  max-height: 305rpx;
 }
 
 .list {
+  max-height: 305rpx;
   overflow-x: auto;
   flex-direction: row;
   padding-right: 23rpx;

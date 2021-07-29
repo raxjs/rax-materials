@@ -1,6 +1,7 @@
 import { createElement, useRef } from 'rax';
 import View from 'rax-view';
 import ScrollView from 'rax-scrollview';
+import throttle from 'lodash.throttle';
 import Nav from './Nav';
 import Scrollbar, { IRefObject } from './Scrollbar';
 
@@ -11,18 +12,14 @@ import styles from './index.module.css';
 
 function NavList() {
   const scrollbarRef = useRef<IRefObject>(null);
-
-  const handleScroll = (e) => {
-    scrollbarRef.current?.handleTargetScroll(e);
-  };
-
   return (
     <View className={styles.navList}>
       <ScrollView
+        className={styles.wrap}
         horizontal
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
-        onScroll={handleScroll}
+        onScroll={throttle((e) => { scrollbarRef.current?.handleTargetScroll(e); }, 160)}
       >
         <View className={styles.list} id="navList">
           {data.map((item, index) => {

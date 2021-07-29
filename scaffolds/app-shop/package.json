@@ -27,6 +27,7 @@
   "dependencies": {
     "@uni/element": "^1.0.6",
     "@uni/system-info": "^1.0.5",
+    "lodash.throttle": "^4.1.1",
     "rax": "^1.1.0",
     "rax-document": "^0.1.0",
     "rax-image": "^2.0.0",

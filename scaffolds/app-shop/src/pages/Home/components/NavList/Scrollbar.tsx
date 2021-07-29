@@ -25,10 +25,13 @@ function Scrollbar(props, ref) {
   }));
 
   useEffect(() => {
-    const { screenWidth } = getInfoSync();
-    getBoundingClientRect(target).then((ret) => {
-      setDragWidth(screenWidth / ret[0].width);
-    });
+    setTimeout(() => {
+      // 兼容异步渲染的小程序
+      const { screenWidth } = getInfoSync();
+      getBoundingClientRect(target).then((ret) => {
+        setDragWidth(screenWidth / ret[0].width);
+      });
+    }, 0);
   }, []);
 
   return (

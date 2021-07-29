@@ -30,7 +30,9 @@ function ItemList(props, ref) {
 
   return (
     <View className={styles.container}>
-      <Image className={styles.header} source={{ uri: 'https://img.alicdn.com/tfs/TB1V2eQrKSSBuNjy0FlXXbBpVXa-966-114.png' }} />
+      <View className={styles.header}>
+        <Image className={styles.headerImage} source={{ uri: 'https://img.alicdn.com/tfs/TB1V2eQrKSSBuNjy0FlXXbBpVXa-966-114.png' }} />
+      </View>
       <View className={styles.list}>
         {list.map((item, index) => {
           return <Card key={`item${index}`} image={item.picUrl} name={item.title} price={item.price} extra={item.recExc} />;

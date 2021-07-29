@@ -16,20 +16,20 @@
       {
         "pageName": "/",
         "text": "首页",
-        "icon": "https://gw.alicdn.com/imgextra/i1/O1CN010N9Cls1wj8wLhHNe1_!!6000000006343-2-tps-200-200.png",
-        "activeIcon": "https://gw.alicdn.com/imgextra/i4/O1CN01MKSIAH1IgmGGHHSzT_!!6000000000923-2-tps-200-200.png"
+        "icon": "/icons/home.png",
+        "activeIcon": "/icons/home_active.png"
       },
       {
         "path": "https://taobao.com",
         "text": "购物车",
-        "icon": "https://gw.alicdn.com/imgextra/i4/O1CN01eFKA9b1zCZcSTAt7J_!!6000000006678-2-tps-200-200.png",
-        "activeIcon": "https://gw.alicdn.com/imgextra/i2/O1CN014haimk26f9eGA8Kro_!!6000000007688-2-tps-200-200.png"
+        "icon": "/icons/cart.png",
+        "activeIcon": "/icons/cart_active.png"
       },
       {
         "path": "https://taobao.com",
         "text": "我的淘宝",
-        "icon": "https://gw.alicdn.com/imgextra/i4/O1CN01mqDLH71OQe0S7Lp5S_!!6000000001700-2-tps-200-200.png",
-        "activeIcon": "https://gw.alicdn.com/imgextra/i1/O1CN01Z7tU9o1Y6ASCvCtB5_!!6000000003009-2-tps-200-200.png"
+        "icon": "/icons/mine.png",
+        "activeIcon": "/icons/mine_active.png"
       }
     ]
   }
