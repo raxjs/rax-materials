@@ -20,7 +20,7 @@ interface IProps {
 function Card(props: IProps) {
   const { index, titleImage, items } = props;
   return (
-    <View className={styles.container}>
+    <View className={styles.container} style={index % 2 !== 0 ? { borderLeft: '1px solid #f2f2f2' } : {}}>
       <Image className={styles.title} source={{ uri: titleImage }} />
       <View className={styles.items}>
         {items.map((item) => {
