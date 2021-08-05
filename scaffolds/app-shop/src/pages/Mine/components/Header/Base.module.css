@@ -1,0 +1,26 @@
+.container {
+  margin-top: 20rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  flex-direction: row;
+}
+
+.name {
+  margin: 50rpx 0 0 24rpx;
+  color: #fff;
+  font-size: 40rpx;
+}
+
+.right {
+  margin-top: 50rpx;
+  flex-direction: row;
+}
+
+.icon {
+  margin-right: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}

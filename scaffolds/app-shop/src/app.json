@@ -3,6 +3,10 @@
     {
       "path": "/",
       "source": "pages/Home/index"
+    },
+    {
+      "path": "/mine",
+      "source": "pages/Mine/index"
     }
   ],
   "window": {
@@ -26,7 +30,7 @@
         "activeIcon": "/icons/cart_active.png"
       },
       {
-        "path": "https://taobao.com",
+        "pageName": "/mine",
         "text": "我的淘宝",
         "icon": "/icons/mine.png",
         "activeIcon": "/icons/mine_active.png"

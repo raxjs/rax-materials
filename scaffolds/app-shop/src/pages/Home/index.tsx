@@ -2,11 +2,11 @@ import { createElement, useState, useRef } from 'rax';
 import View from 'rax-view';
 import RecyclerView from 'rax-recyclerview';
 import GoTop from '@/components/GoGtop';
+import ItemList, { IRefObject } from '@/components/ItemList';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import NavList from './components/NavList';
 import ItemWrap from './components/ItemWrap';
-import ItemList, { IRefObject } from './components/ItemList';
 
 import styles from './index.module.css';
 

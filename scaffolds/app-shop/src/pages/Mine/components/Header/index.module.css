@@ -1,0 +1,7 @@
+.container {
+  position: relative;
+  width: 750rpx;
+  height: 340rpx;
+  background-color: #FF5000;
+  background-image: linear-gradient(to right, #FD9126, #FF5000);
+}

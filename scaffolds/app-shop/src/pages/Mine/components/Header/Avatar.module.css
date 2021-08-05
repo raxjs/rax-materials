@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  margin: 56rpx 0 0 36rpx;
+  width: 98rpx;
+  height: 98rpx;
+}
+
+.avatar {
+  width: 98rpx;
+  height: 98rpx;
+  border-radius: 50rpx;
+  border: 2rpx solid #fff;
+  overflow: hidden;
+}
+
+.crown {
+  position: absolute;
+  top: -15rpx;
+  right: -5rpx;
+  width: 36rpx;
+  height: 36rpx;
+}
+
+.user {
+  width: 98rpx;
+  height: 98rpx;
+}

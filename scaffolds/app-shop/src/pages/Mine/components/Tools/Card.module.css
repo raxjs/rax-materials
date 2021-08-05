@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  width: 172rpx;
+  height: 160rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 58rpx;
+  height: 58rpx;
+}
+
+.name {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #666;
+}
