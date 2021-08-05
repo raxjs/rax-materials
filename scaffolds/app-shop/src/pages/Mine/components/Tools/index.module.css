@@ -1,0 +1,11 @@
+.container {
+  margin: 20rpx 24rpx;
+  width: 702rpx;
+  background: #fff;
+}
+
+.body {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 702rpx;
+}

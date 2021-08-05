@@ -1,0 +1,100 @@
+[
+  {
+    "titleImage": "https://gw.alicdn.com/tfs/TB11.K2mq61gK0jSZFlXXXDKFXa-525-60.png?getAvatar=1_360x360q90_.webp",
+    "items": [
+      {
+        "tag": {
+          "text": "品牌折扣",
+          "color": "#fe4e50"
+        },
+        "image": "https://img.alicdn.com/tps/O1CN01hjD05x1DBZAiylKuT_!!178-2-lubanu.png_125x125q90_.webp"
+      },
+      {
+        "tag": {
+          "text": "划算好货",
+          "color": "#ff7518"
+        },
+        "image": "https://img.alicdn.com/tps/O1CN0140SG9u1xSU9HKPM2K_!!0-juitemmedia.jpg_125x125q90_.webp"
+      }
+    ]
+  },
+  {
+    "titleImage": "https://gw.alicdn.com/tfs/TB1MfTtQrrpK1RjSZTEXXcWAVXa-525-60.png?getAvatar=1_360x360q90_.webp",
+    "items": [
+      {
+        "tag": {
+          "text": "好物传送门",
+          "color": "#ff507d"
+        },
+        "image": "https://gw.alicdn.com/imgextra/i3/117/O1CN01rIvTiI1CjcweVVOUY_!!117-2-lubanu.png_125x125q90_.webp"
+      },
+      {
+        "image": "https://gw.alicdn.com/imgextra/i3/13/O1CN016ZFbmU1BxzjHpTXkD_!!13-0-lubanu.jpg_180x180q90_.webp"
+      }
+    ]
+  },
+  {
+    "titleImage": "https://gw.alicdn.com/imgextra/i2/O1CN01AeZ5mk1IhEf54f1Ce_!!6000000000924-2-tps-512-63.png",
+    "items": [
+      {
+        "tag": {
+          "text": "限时半价",
+          "color": "#fa2a59"
+        },
+        "image": "https://gw.alicdn.com/imgextra/i2/2/TB2m7tdwf5TBuNjSspmXXaDRVXa_!!2-2-luban.png_125x125q90_.webp"
+      },
+      {
+        "tag": {
+          "text": "9.9包邮",
+          "color": "#ff4c09"
+        },
+        "image": "https://img.alicdn.com/tps/O1CN01FIpNiW1dBjLTfoIY2_!!6000000003698-0-yinhe.jpg_125x125q90_.webp"
+      }
+    ]
+  },
+  {
+    "titleImage": "https://gw.alicdn.com/tfs/TB1Cbq1mrj1gK0jSZFuXXcrHpXa-525-60.png?getAvatar=1_360x360q90_.webp",
+    "items": [
+      {
+        "tag": {
+          "text": "全民口碑推荐",
+          "color": "#50bdff"
+        },
+        "image": "https://gw.alicdn.com/imgextra/i1/142/O1CN01X7HlmC1Cv4qfUnwxD_!!142-2-lubanu.png_125x125q90_.webp"
+      },
+      {
+        "image": "https://gw.alicdn.com/imgextra/i2/44/O1CN01BfHIWX1CCBzZeHzQc_!!44-0-lubanu.jpg_180x180q90_.webp"
+      }
+    ]
+  },
+  {
+    "titleImage": "https://gw.alicdn.com/tfs/TB1lfyQmpY7gK0jSZKzXXaikpXa-525-60.png?getAvatar=1_360x360q90_.webp",
+    "items": [
+      {
+        "tag": {
+          "text": "挖深藏的店",
+          "color": "#f9a500"
+        },
+        "image": "https://gw.alicdn.com/imgextra/i4/159/O1CN01hjIr8a1D2rds9SPtB_!!159-2-lubanu.png_125x125q90_.webp"
+      },
+      {
+        "image": "https://gw.alicdn.com/imgextra/i4/23/O1CN01qKCpqs1C2ZmWlfHra_!!23-0-lubanu.jpg_180x180q90_.webp"
+      }
+    ]
+  },
+  {
+    "titleImage": "https://gw.alicdn.com/tfs/TB1jkazoAL0gK0jSZFAXXcA9pXa-525-60.png?getAvatar=1_360x360q90_.webp",
+    "items": [
+      {
+        "tag": {
+          "text": "粉丝都爱看",
+          "color": "#ff611d"
+        },
+        "image": "https://gw.alicdn.com/imgextra/i2/173/TB2LZERnpOWBuNjy0FiXXXFxVXa_!!173-2-luban.png_125x125q90_.webp"
+      },
+      {
+        "image": "https://gw.alicdn.com/imgextra/i1/124/TB2ZxuTd5MnBKNjSZFCXXX0KFXa_!!124-0-luban.jpg_180x180q90_.webp"
+      }
+    ]
+  }
+]

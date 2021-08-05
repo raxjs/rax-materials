@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  width: 140rpx;
+  height: 152rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.count {
+  position: absolute;
+  top: 20rpx;
+  right: 24rpx;
+  padding: 0 8rpx;
+  height: 32rpx;
+  line-height: 30rpx;
+  border-radius: 20rpx;
+  border: 2rpx solid #f50;
+  background: #fff;
+}
+
+.countNumber {
+  color: #f50;
+  font-size: 22rpx;
+}
+
+.icon {
+  width: 58rpx;
+  height: 58rpx;
+}
+
+.title {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #666;
+}

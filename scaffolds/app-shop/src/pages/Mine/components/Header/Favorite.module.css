@@ -1,0 +1,20 @@
+.container {
+  margin-top: 32rpx;
+  flex-direction: row;
+}
+
+.card {
+  text-align: center;
+  width: 180rpx;
+}
+
+.count {
+  font-size: 28rpx;
+  color: #fff;
+}
+
+.label {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #fff;
+}

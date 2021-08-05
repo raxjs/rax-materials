@@ -1,0 +1,19 @@
+.container {
+  padding: 0 15rpx;
+  background-color: #f4f4f4;
+}
+
+.header {
+  padding: 24rpx 0;
+}
+
+.headerImage {
+  margin: 0 auto;
+  width: 322rpx;
+  height: 38rpx;
+}
+
+.list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

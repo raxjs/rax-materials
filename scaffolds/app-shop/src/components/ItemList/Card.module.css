@@ -1,0 +1,33 @@
+.container {
+  margin: 18rpx 9rpx 0;
+  background: #fff;
+  width: 342rpx;
+}
+
+.image {
+  width: 342rpx;
+  height: 342rpx;
+}
+
+.name {
+  padding: 20rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+
+.info {
+  padding: 0 20rpx 20rpx;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.price {
+  color: #f50;
+  font-size: 28rpx;
+}
+
+.extra {
+  margin-left: 18rpx;
+  color: #999;
+  font-size: 22rpx;
+}

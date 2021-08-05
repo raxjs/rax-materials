@@ -1,0 +1,40 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "source": "pages/Home/index"
+    },
+    {
+      "path": "/mine",
+      "source": "pages/Mine/index"
+    }
+  ],
+  "window": {
+    "title": "手机淘宝"
+  },
+  "tabBar": {
+    "textColor": "#999",
+    "selectedColor": "#666",
+    "backgroundColor": "#f8f8f8",
+    "items": [
+      {
+        "pageName": "/",
+        "text": "首页",
+        "icon": "/icons/home.png",
+        "activeIcon": "/icons/home_active.png"
+      },
+      {
+        "path": "https://taobao.com",
+        "text": "购物车",
+        "icon": "/icons/cart.png",
+        "activeIcon": "/icons/cart_active.png"
+      },
+      {
+        "pageName": "/mine",
+        "text": "我的淘宝",
+        "icon": "/icons/mine.png",
+        "activeIcon": "/icons/mine_active.png"
+      }
+    ]
+  }
+}

@@ -3,6 +3,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, './');
 
 const ejsData = {
+  appType: 'miniapp',
   targets: ['web'],
   miniappType: 'runtime',
   mpa: false,
@@ -30,5 +31,6 @@ module.exports = {
     { target: path.join(ROOT, 'scaffolds/app-ts/'), name: 'app-ts', data: ejsData, preview: previewData },
     { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-faas', data: ejsData, preview: previewData },
     { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-ssr', data: ejsData, preview: previewData },
+    { target: path.join(ROOT, 'scaffolds/app-shop/'), name: 'app-shop', data: ejsData, preview: previewData },
   ],
 };

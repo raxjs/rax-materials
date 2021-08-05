@@ -1,0 +1,30 @@
+.container {
+  height: 76rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #eeeee7;
+}
+
+.title {
+  margin-left: 23rpx;
+  color: #333;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+
+.extra {
+  margin-right: 23rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.extraText {
+  color: #999;
+  font-size: 24rpx;
+}
+
+.arrow {
+  width: 28rpx;
+  height: 28rpx;
+}

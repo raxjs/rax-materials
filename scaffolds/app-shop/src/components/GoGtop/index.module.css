@@ -1,0 +1,24 @@
+.container {
+  position: fixed;
+  right: 20rpx;
+  bottom: 140rpx;
+  z-index: 1000;
+  color: #bbb;
+  background-color: #fff;
+  border: 2rpx solid #ccc;
+  text-align: center;
+  border-radius: 50%;
+  width: 88rpx;
+  height: 88rpx;
+}
+
+.image {
+  margin: 3rpx auto;
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.text {
+  line-height: 24rpx;
+  font-size: 24rpx;
+}
