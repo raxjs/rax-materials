@@ -30,5 +30,6 @@ module.exports = {
     { target: path.join(ROOT, 'scaffolds/app-ts/'), name: 'app-ts', data: ejsData, preview: previewData },
     { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-faas', data: ejsData, preview: previewData },
     { target: path.join(ROOT, 'scaffolds/app-midway-faas/'), name: 'app-midway-ssr', data: ejsData, preview: previewData },
+    { target: path.join(ROOT, 'scaffolds/app-midway-miniapp/'), name: 'app-midway-miniapp', data: ejsData, preview: previewData },
   ],
 };

@@ -11,6 +11,9 @@
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "lint": "npm run eslint && npm run stylelint"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@midwayjs/faas": "^2.11.5",
     "@midwayjs/hooks": "^2.3.0",
