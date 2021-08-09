@@ -9,6 +9,7 @@
     "jsx": "preserve",
     "jsxFactory": "createElement",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["es6", "dom"],
     "sourceMap": true,
