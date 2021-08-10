@@ -1,0 +1,28 @@
+.container {
+  padding: 16rpx 0;
+  align-items: center;
+}
+
+.wrap {
+  position: relative;
+  width: 320rpx;
+  align-items: center;
+}
+
+.line {
+  position: absolute;
+  top: 18rpx;
+  left: 0;
+  width: 320rpx;
+  height: 2px;
+  background: #999;
+}
+
+.text {
+  position: relative;
+  width: 120rpx;
+  text-align: center;
+  background: #f2f2f2;
+  font-size: 24rpx;
+  color: #999;
+}

@@ -16,9 +16,9 @@ function Detail() {
     <View className={styles.container}>
       <Header />
       <Banner />
-      {/* <BaseCard />
+      <BaseCard />
       <SkuCard />
-      <CommunityCard /> */}
+      <CommunityCard />
       <StoreCard />
       <Description />
     </View>

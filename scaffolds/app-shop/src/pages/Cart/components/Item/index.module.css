@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 250rpx;
+  background-image: linear-gradient(-90deg, #FF5000 0%, #FF8400 100%);
+}
+
+.title {
+  padding: 0rpx 24rpx 0rpx 24rpx;
+  color: #fff;
+  font-size: 24rpx;
+}
+
+.content {
+  margin: 80rpx 24rpx 40rpx;
+  padding: 24rpx;
+  position: relative;
+  border-radius: 24rpx;
+  background: #fff;
+  z-index: 1;
+}

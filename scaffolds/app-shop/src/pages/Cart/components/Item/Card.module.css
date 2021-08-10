@@ -1,0 +1,36 @@
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.info {
+  width: 440rpx;
+  height: 180rpx;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 28rpx;
+  color: #333;
+}
+
+.price {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.priceText {
+  font-size: 28rpx;
+  color: #ff5500;
+}
+
+.countText {
+  margin-right: 14rpx;
+  color: #666;
+  font-size: 24rpx;
+}

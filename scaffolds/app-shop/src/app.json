@@ -2,14 +2,17 @@
   "routes": [{
       "path": "/",
       "source": "pages/Home/index"
-    },
-    {
-      "path": "/detail",
-      "source": "pages/Detail/index"
+    },{
+      "path": "/cart",
+      "source": "pages/Cart/index"
     },
     {
       "path": "/mine",
       "source": "pages/Mine/index"
+    },
+    {
+      "path": "/detail",
+      "source": "pages/Detail/index"
     }
   ],
   "window": {
@@ -26,7 +29,7 @@
         "activeIcon": "/icons/home_active.png"
       },
       {
-        "path": "https://taobao.com",
+        "pageName": "/cart",
         "text": "购物车",
         "icon": "/icons/cart.png",
         "activeIcon": "/icons/cart_active.png"
