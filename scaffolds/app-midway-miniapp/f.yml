@@ -1,0 +1,4 @@
+service: midway-hooks-wechat
+
+provider:
+  name: wechat
