@@ -1,0 +1,48 @@
+.tags {
+  margin-top: 28rpx;
+  flex-direction: row;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 26rpx;
+  padding: 8rpx 20rpx;
+  margin-right: 20rpx;
+  color: #111;
+  background: #ffecea;
+  font-size: 28rpx;
+}
+
+.comment {
+  margin-top: 28rpx;
+}
+
+.info {
+  flex-direction: row;
+  justify-content: start;
+}
+
+.avatar {
+  margin-right: 14rpx;
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 34rpx;
+}
+
+.name {
+  color: #111;
+  font-size: 28rpx;
+  line-height: 34rpx;
+}
+
+.time {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+
+.commentText {
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  color: #111;
+}

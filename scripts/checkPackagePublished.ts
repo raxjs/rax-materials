@@ -6,7 +6,7 @@ export default function checkPackagePublished() {
   const publishedPackages: string[] = getPublishedPackages();
 
   const timeout = 10000;
-  const maxDetectTimes = 18; // wait 3 minutes
+  const maxDetectTimes = 30; // wait 5 minutes
   return Promise.all(
     publishedPackages.map((publishedPackage) => {
       return new Promise((resolve, retject) => {

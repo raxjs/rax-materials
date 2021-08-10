@@ -1,0 +1,18 @@
+.container {
+  margin-top: 28rpx;
+  padding-top: 36rpx;
+  border-top: 2rpx solid #f4f4f4;
+}
+
+.wrap {
+  flex-direction: row;
+  width: 690rpx;
+  overflow: hidden;
+  margin-top: 24rpx;
+}
+
+.image {
+  width: 166rpx;
+  height: 166rpx;
+  margin-right: 2rpx;
+}

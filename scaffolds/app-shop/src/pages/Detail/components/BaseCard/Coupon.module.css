@@ -1,0 +1,32 @@
+.container {
+  margin-top: 12rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coupon {
+  flex-direction: row;
+}
+
+.couponText {
+  margin-right: 48rpx;
+  padding: 2rpx 8rpx;
+  font-size: 26rpx;
+  line-height: 32rpx;
+  color: #ff5000;
+  background-color: #ffede8;
+}
+
+.button {
+  flex-direction: row;
+}
+
+.buttonText {
+  font-size: 26rpx;
+  color: #ff5000;
+}
+
+.buttonIcon {
+  width: 28rpx;
+  height: 28rpx;
+}

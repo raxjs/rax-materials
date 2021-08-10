@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+}
+
+.image {
+  width: 750rpx;
+  height: 750rpx;
+}
+
+.pagination {
+  position: absolute;
+  right: 20rpx;
+  bottom: 32rpx;
+  height: 40rpx;
+  border-radius: 40rpx;
+  line-height: 40rpx;
+  padding: 0 20rpx;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.paginationText {
+  color: #fff;
+  font-size: 20rpx;
+}

@@ -3,6 +3,7 @@ import * as fs from 'fs-extra';
 import * as path from 'path';
 import { spawnSync } from 'child_process';
 import { IConfig } from './interface';
+import copy from './copy';
 import * as config from '../../ejsRender.config';
 
 const BUILD_DIR = 'build';
@@ -57,12 +58,12 @@ export default function (directory: string) {
         cwd: targetDir,
       },
     );
-    fs.copySync(path.join(targetDir, BUILD_DIR), path.join(directory, BUILD_DIR));
+    copy(path.join(targetDir, BUILD_DIR), path.join(directory, BUILD_DIR));
 
     // Use web result as scaffold home page
     const webResult = path.join(directory, BUILD_DIR, 'web');
     if (fs.existsSync(webResult)) {
-      fs.copySync(webResult, path.join(directory, BUILD_DIR));
+      copy(webResult, path.join(directory, BUILD_DIR));
     }
   }
 }

@@ -1,8 +1,11 @@
 {
-  "routes": [
-    {
+  "routes": [{
       "path": "/",
       "source": "pages/Home/index"
+    },
+    {
+      "path": "/detail",
+      "source": "pages/Detail/index"
     },
     {
       "path": "/mine",
@@ -16,8 +19,7 @@
     "textColor": "#999",
     "selectedColor": "#666",
     "backgroundColor": "#f8f8f8",
-    "items": [
-      {
+    "items": [{
         "pageName": "/",
         "text": "首页",
         "icon": "/icons/home.png",

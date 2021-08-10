@@ -1,0 +1,59 @@
+.container {
+  margin: 18rpx 18rpx 0;
+  padding: 24rpx;
+  background: #fff;
+  border-radius: 24rpx;
+}
+
+.wrap {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop {
+  flex: 1;
+  margin-left: 28rpx;
+}
+
+.name {
+  color: #333;
+  font-size: 34rpx;
+  font-weight: bold;
+
+}
+
+.level {
+  margin-top: 14rpx;
+  width: 132rpx;
+  height: 24rpx;
+}
+
+.avatar {
+  border-radius: 48rpx;
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.description {
+  flex-direction: row;
+}
+
+.label {
+  font-size: 20rpx;
+}
+
+.rank {
+  margin-left: 6rpx;
+  font-size: 20rpx;
+  color: #ff5000;
+}
+
+.button {
+  margin-left: 20rpx;
+  border-radius: 26rpx;
+  border: 2rpx solid #ff5000;
+  padding: 8rpx 24rpx;
+  font-size: 28rpx;
+  color: #ff5000;
+}

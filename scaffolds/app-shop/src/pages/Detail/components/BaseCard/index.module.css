@@ -1,0 +1,12 @@
+.container {
+  margin: 18rpx 18rpx 0;
+  padding: 24rpx;
+  background: #fff;
+  border-radius: 24rpx;
+}
+
+.title {
+  margin-top: 24rpx;
+  color: #111;
+  font-size: 32rpx;
+}

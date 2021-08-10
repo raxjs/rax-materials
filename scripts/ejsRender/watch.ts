@@ -2,6 +2,7 @@
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import * as chokidar from 'chokidar';
+import copy from './copy';
 import generate from './generate';
 import { IConfig } from './interface';
 import * as config from '../../ejsRender.config';
@@ -16,7 +17,7 @@ chokidar.watch(path.join(__dirname, '../../scaffolds/'), { ignoreInitial: true }
       generate(scaffoldConfig);
     } else {
       // do copy
-      fs.copySync(file, path.join(tmpDir, scaffoldConfig.name, file.replace(scaffoldConfig.target, '')));
+      copy(file, path.join(tmpDir, scaffoldConfig.name, file.replace(scaffoldConfig.target, '')));
     }
   }
 });

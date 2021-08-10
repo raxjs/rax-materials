@@ -1,0 +1,38 @@
+.container {
+  padding: 24rpx 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.label {
+  color: #999;
+  font-size: 28rpx;
+  margin-right: 38rpx;
+}
+
+.split {
+  color: #eee;
+  font-size: 28rpx;
+  margin: 0 20rpx;
+}
+
+.content {
+  max-width: 544rpx;
+  font-size: 28rpx;
+  color: #111;
+}
+
+.extra {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.icon {
+  width: 26rpx;
+  height: 26rpx;
+}

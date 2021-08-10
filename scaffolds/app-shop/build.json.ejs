@@ -1,14 +1,14 @@
-{<%_ if ( appType === 'miniapp' ) { -%>
-  "targets": [
-    "web",
-    "miniapp",
-    "wechat-miniprogram"
-  ]
-<%_ } else { %>
+{<%_ if ( appType === 'web-mpa' ) { -%>
   "targets": [
     "web"
   ],
   "web": {
     "mpa": true
   }
+<%_ } else { %>
+  "targets": [
+    "web",
+    "miniapp",
+    "wechat-miniprogram"
+  ]
 <%_ } %>}

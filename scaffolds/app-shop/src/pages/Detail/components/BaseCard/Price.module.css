@@ -1,0 +1,28 @@
+.container {
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.priceText {
+  color: #ff5000;
+}
+
+.newPrice {
+  background: #ff5000;
+  margin-left: 20rpx;
+  padding: 0 18rpx;
+  border-radius: 24rpx;
+  height: 48rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.newPriceText {
+  color: #fff;
+  font-weight: bold;
+}

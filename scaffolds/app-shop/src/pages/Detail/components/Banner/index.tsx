@@ -1,5 +1,6 @@
-import { createElement } from 'rax';
+import { createElement, useState } from 'rax';
 import View from 'rax-view';
+import Text from 'rax-text';
 import Image from 'rax-image';
 import Slider from 'rax-slider';
 
@@ -9,25 +10,21 @@ import data from './data.json';
 import styles from './index.module.css';
 
 function Banner() {
+  const [index, setIndex] = useState(1);
+
+  function handleChange(e) {
+    setIndex(Number(e.index) + 1);
+  }
+
   return (
-    <View>
+    <View className={styles.container}>
       <Slider
         className="slider"
         width={750}
-        height={240}
-        autoPlay
-        loop
-        showsPagination
-        paginationStyle={{
-          position: 'absolute',
-          width: 750,
-          height: 40,
-          bottom: 20,
-          left: 0,
-          itemColor: 'rgba(255, 255, 255, 0.5)',
-          itemSelectedColor: 'rgb(255, 80, 0)',
-          itemSize: 16,
-        }}
+        height={750}
+        loop={false}
+        showsPagination={false}
+        onChange={handleChange}
       >
         {data.map((item) => {
           return (
@@ -37,6 +34,9 @@ function Banner() {
           );
         })}
       </Slider>
+      <View className={styles.pagination}>
+        <Text className={styles.paginationText}>{index}/{data.length}</Text>
+      </View>
     </View>
   );
 }

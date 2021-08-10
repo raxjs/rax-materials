@@ -1,0 +1,27 @@
+.title {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleText {
+  font-size: 32rpx;
+  line-height: 38rpx;
+  font-weight: bold;
+  color: #111;
+}
+
+.extra {
+  flex-direction: row;
+  align-items: center;
+}
+
+.extraText {
+  font-size: 26rpx;
+  color: #ff5000;
+}
+
+.icon {
+  width: 26rpx;
+  height: 26rpx;
+}

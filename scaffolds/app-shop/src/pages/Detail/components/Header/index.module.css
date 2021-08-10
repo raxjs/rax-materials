@@ -1,0 +1,22 @@
+.container {
+  position: fixed;
+  z-index: 999;
+  width: 750rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  margin: 18rpx;
+  background: rgba(0, 0, 0, 0.4);
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 68rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+}
