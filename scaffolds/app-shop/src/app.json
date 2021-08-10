@@ -25,20 +25,20 @@
     "items": [{
         "pageName": "/",
         "text": "首页",
-        "icon": "/icons/home.png",
-        "activeIcon": "/icons/home_active.png"
+        "icon": "./icons/home.png",
+        "activeIcon": "./icons/home_active.png"
       },
       {
         "pageName": "/cart",
         "text": "购物车",
-        "icon": "/icons/cart.png",
-        "activeIcon": "/icons/cart_active.png"
+        "icon": "./icons/cart.png",
+        "activeIcon": "./icons/cart_active.png"
       },
       {
         "pageName": "/mine",
         "text": "我的淘宝",
-        "icon": "/icons/mine.png",
-        "activeIcon": "/icons/mine_active.png"
+        "icon": "./icons/mine.png",
+        "activeIcon": "./icons/mine_active.png"
       }
     ]
   }
