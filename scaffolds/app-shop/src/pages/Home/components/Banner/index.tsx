@@ -2,6 +2,7 @@ import { createElement } from 'rax';
 import View from 'rax-view';
 import Image from 'rax-image';
 import Slider from 'rax-slider';
+import Link from '@/components/Link';
 
 // mock data
 import data from './data.json';
@@ -32,7 +33,9 @@ function Banner() {
         {data.map((item) => {
           return (
             <View key={item} className="itemWrap">
-              <Image className={styles.image} source={{ uri: item }} />
+              <Link href={'/detail'}>
+                <Image className={styles.image} source={{ uri: item }} />
+              </Link>
             </View>
           );
         })}

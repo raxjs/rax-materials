@@ -1,0 +1,31 @@
+{<%_ if ( appType === 'web-mpa' ) { -%>
+import { createElement } from 'rax';
+
+function Link(props) {
+  return (
+    <a {...props} href={`${props.href}.html`}>
+      {props.children}
+    </a>
+  );
+}
+
+export default Link;
+<%_ } else { %>
+import { createElement } from 'rax';
+import { withRouter } from 'rax-app';
+import View from 'rax-view';
+
+function Link(props) {
+  const handleClick = () => {
+    props.history.push(props.href === '/home' ? '/' : props.href);
+  };
+
+  return (
+    <View {...props} onClick={handleClick}>
+      {props.children}
+    </View>
+  );
+}
+
+export default withRouter(Link);
+<%_ } %>}
