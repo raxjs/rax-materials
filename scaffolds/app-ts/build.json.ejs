@@ -1,5 +1,6 @@
 {
-  "targets": ["<%- targets.join('", "') %>"]<%_ if (mpa && targets.includes('web')) { -%> , 
+  "targets": ["<%- targets.join('", "') %>"],
+  "webpack5": true<%_ if (mpa && targets.includes('web')) { -%> , 
   "web": {
     "mpa": true<%_ if (pha) { -%> ,
     "pha": true<%_ } %>
@@ -9,5 +10,6 @@
   }<%_ } %><%_ if (mpa && targets.includes('kraken') ) { -%> , 
   "kraken": {
     "mpa": true
-  }<%_ } %>
+  }<%_ } %><%_ if (pha) { -%> , 
+  "swc": true<%_ } %>
 }
