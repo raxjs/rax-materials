@@ -16,7 +16,7 @@ export default function (directory: string) {
 
     spawnSync(
       'npm',
-      ['install'],
+      ['install', '--registry=https://registry.npm.taobao.org'],
       {
         stdio: 'inherit',
         cwd: targetDir,
