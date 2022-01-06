@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-ts",
   "author": "rax",
   "description": "Rax 无线跨端应用工程，使用 TypeScript。",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "scripts": {
     "start": "rax-app start",
     "build": "rax-app build",
@@ -36,7 +36,7 @@
     "rax-view": "^2.0.0"
   },
   "devDependencies": {
-    "rax-app": "^3.8.0-rc.11",
+    "rax-app": "^3.0.0",
     "@iceworks/spec": "^1.0.0",
     "@types/rax": "^1.0.0",
     "eslint": "^6.8.0",
