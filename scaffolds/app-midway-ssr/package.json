@@ -28,7 +28,7 @@
     "@types/rax": "^1.0.0",
     "@midwayjs/faas-cli": "^1.2.14",
     "build-plugin-midway-faas": "^1.0.0",
-    "eslint": "^6.8.0",
+    "eslint": "^8.0.0",
     "stylelint": "^13.7.2",
     "typescript": "^3.7.5"
   },
