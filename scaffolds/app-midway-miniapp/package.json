@@ -2,7 +2,7 @@
   "name": "@rax-materials/scaffolds-app-midway-miniapp",
   "author": "rax",
   "description": "结合 Midway 的 Rax 跨端小程序一体化云开发应用",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "deploy": "f deploy",
     "start": "rax-app start",
@@ -33,9 +33,9 @@
     "@types/wechat-miniprogram": "^3.4.0",
     "@midwayjs/build-plugin-hooks": "^2.3.0",
     "build-plugin-rax-miniapp-faas": "^1.0.0",
-    "eslint": "^6.8.0",
+    "eslint": "^8.0.0",
     "prettier": "^2.1.2",
-    "rax-app": "^3.8.0-rc.11",
+    "rax-app": "^3.8.7",
     "stylelint": "^13.7.2"
   },
   "scaffoldConfig": {
